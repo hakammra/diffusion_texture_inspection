@@ -64,9 +64,12 @@ Industrial textile rolls exceed standard GPU memory limits. A sliding-window til
 * **Resolution**: $512 \times 512$
 * **Result**: Achieved **~0.99 Image AUROC**, reliably isolating cuts, fold defects, and surface abrasions.
 
+![MVTec Leather Evaluation Preview](results/mvtec_leather/evaluation_preview.png)
+*Figure 1: DTU-Net anomaly detection on MVTec Leather showing original capture, Simplex-corrupted input, reverse diffusion reconstruction, and pixel residual map isolating cuts and surface tears.*
+
 ### 2. Custom Industrial Fabric Stain Dataset
 * **Objective**: Real-world evaluation on challenging textile captures containing subtle liquid stains, oil marks, and chemical discolorations.
-* **Test Set**: 100 defective stained captures, 10 pristine normal references across varied weave patterns.
+* **Dataset Size**: 466 real textile captures across varied weave structures (`train_normal`: 48, `val_normal`: 10, `test/stain`: 398, `test/good`: 10).
 * **Evaluation Framework**: Frozen, independent test set evaluated under tiled inference ($t = 50$, stride $384$, quantile $0.999$).
 
 | Metric | Score | 95% Confidence Interval |
@@ -77,7 +80,17 @@ Industrial textile rolls exceed standard GPU memory limits. A sliding-window til
 | **Specificity** | **90.0%** | [59.6%, 98.2%] |
 | **Balanced Accuracy** | **70.5%** | — |
 
+![Fabric Stain Tiled Evaluation Preview](results/fabric_stain/tiled_final/final_examples.png)
+*Figure 2: Sliding-window tiled diffusion anomaly localization across high-resolution industrial fabric weaves, isolating subtle liquid stains, grease spots, and chemical discolorations.*
+
+![Fabric Stain ROC and PR Curves](results/fabric_stain/roc_and_pr_curve_v9.png)
+*Figure 3: Precision-Recall and ROC curves on the locked industrial fabric stain dataset, achieving 0.961 Average Precision and 0.773 AUROC under tiled dual-pathway inference.*
+
+![Fabric Stain Score Distribution](results/fabric_stain/tiled_final/final_score_summary.png)
+*Figure 4: Defect anomaly score separation between pristine normal fabric references and defective stained captures.*
+
 ---
+
 
 ## Directory Structure
 
@@ -97,6 +110,13 @@ diffusion_texture_inspection/
 │   ├── 07_fabric_stain_train.ipynb            # Fabric stain diffusion training
 │   ├── 08_fabric_stain_evaluate_baseline.ipynb# Baseline fabric stain evaluation
 │   └── 09_fabric_stain_evaluate_v9_dual_pathway.ipynb # Production dual-pathway evaluation
+│
+├── data/
+│   ├── README.md                              # Dataset documentation & Kaggle download guide
+│   └── fabric_stain/                          # Complete industrial textile dataset (466 captures)
+│       ├── train_normal/                      # 48 normal training reference weaves
+│       ├── val_normal/                        # 10 validation reference weaves
+│       └── test/                              # 408 evaluation captures (398 stain + 10 good)
 │
 ├── results/
 │   ├── fabric_stain/                          # Evaluation metrics, JSONs, and summary plots
@@ -141,3 +161,33 @@ jupyter lab notebooks/
 ```
 * **For Fabric Stain**: Open [`notebooks/09_fabric_stain_evaluate_v9_dual_pathway.ipynb`](notebooks/09_fabric_stain_evaluate_v9_dual_pathway.ipynb).
 * **For MVTec Leather**: Open [`notebooks/04_mvtec_leather_evaluate.ipynb`](notebooks/04_mvtec_leather_evaluate.ipynb).
+
+---
+
+## Attribution, Credits & Academic Citation
+
+This research implementation builds directly upon the foundational architecture and open research of **DTU-Net**:
+
+* **Foundational Paper**:  
+  > **Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet**  
+  > *Komal Kumar, Snehashis Chakraborty, Dwarikanath Mahapatra, Behzad Bozorgtabar, Sudipta Roy*  
+  > Published in **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2025)**.
+
+* **Upstream Model & Architecture**:  
+  The core Dynamic Transformer U-Net architecture (`UDHVT`), 4D Simplex noise formulation, and partial reverse diffusion schedule belong to the original authors. The upstream PyTorch implementation is preserved in [`upstream/`](upstream/).
+
+* **Our Extended Engineering Contributions**:  
+  1. Independent university reproduction and empirical audit on canonical benchmarks (MVTec Leather).
+  2. Formulation of the **Sliding-Window Tiled Dual-Pathway Engine** with cosine boundary falloff compensation to adapt DTU-Net for full-field industrial textile inspection ($1024 \times 1024$ and larger).
+  3. Construction, curation, and locked evaluation on the **466-sample Industrial Fabric Stain Dataset**.
+
+### BibTeX
+```bibtex
+@inproceedings{kumar2025dtunet,
+  title={Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet},
+  author={Kumar, Komal and Chakraborty, Snehashis and Mahapatra, Dwarikanath and Bozorgtabar, Behzad and Roy, Sudipta},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2025}
+}
+```
+
