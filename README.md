@@ -68,13 +68,13 @@ Industrial textile rolls exceed standard GPU memory limits. A sliding-window til
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Baseline Single-Pass (Raw L2)** | 0.733 | 0.906 | 55.4% | 68.8% | 733 px (grain speckles) |
 | **Offline Residual Dual-Pathway** | 0.787 | 0.931 | 82.6% | 90.6% | 0 px (100% clean) |
-| **V9 Full DTU-Net Dual-Pathway (Kaggle GPU)** | **0.994** | **0.998** | **98.9% (91/92)** | **96.9% (31/32)** | **7.1 px** (<0.015% area) |
+| **DTU-Net Dual-Pathway (Kaggle GPU)** | **0.994** | **0.998** | **98.9% (91/92)** | **96.9% (31/32)** | **7.1 px** (<0.015% area) |
 
 ![MVTec Leather ROC and PR Curves](results/mvtec_leather/roc_and_pr_curve_v9.png)
-*Figure 1: ROC and Precision-Recall curves on the official MVTec Leather test set, achieving **0.994 AUROC** and **0.998 Average Precision** under the V9 Dual-Pathway protocol.*
+*Figure 1: ROC and Precision-Recall curves on the official MVTec Leather test set, achieving **0.994 AUROC** and **0.998 Average Precision** under the DTU-Net Dual-Pathway protocol.*
 
-![MVTec Leather V9 Diagnostic Gallery](results/mvtec_leather/evaluation_preview_v9.png)
-*Figure 2: Multi-stage Dual-Pathway anomaly inspection gallery on MVTec Leather (`artifacts/mvtec_leather_evaluation_v9/gallery/index.html`). Across 6 diagnostic columns (Original Input, DTU-Net Reconstruction, Fused Heatmap, Defect Mask, Disambiguated Fold Mask, and Color Overlay with Bounding Boxes), the engine cleanly verifies pristine leather, isolates cuts, glue, and pokes in Amber, and disambiguates structural folds into Cyan.*
+![MVTec Leather DTU-Net Diagnostic Gallery](results/mvtec_leather/evaluation_preview_v9.png)
+*Figure 2: Multi-stage DTU-Net Dual-Pathway anomaly inspection gallery on MVTec Leather (`results/mvtec_leather/gallery/index.html`). Across 6 diagnostic columns (Original Input, DTU-Net Reconstruction, DTU-Net Fused Heatmap, Defect Mask, Disambiguated Fold Mask, and Color Overlay with Bounding Boxes), the engine cleanly verifies pristine leather, isolates cuts, glue, and pokes in Amber, and disambiguates structural folds into Cyan.*
 
 ### 2. Custom Industrial Fabric Stain Dataset
 * **Objective**: Real-world evaluation on challenging textile captures containing subtle liquid stains, oil marks, and chemical discolorations.
@@ -90,13 +90,13 @@ Industrial textile rolls exceed standard GPU memory limits. A sliding-window til
 | **Balanced Accuracy** | **70.5%** | — |
 
 ![Fabric Stain Dual-Pathway Diagnostic Gallery](results/fabric_stain/v9_gallery_preview.png)
-*Figure 2: Multi-stage Dual-Pathway anomaly inspection gallery matching the production web evaluation interface (`artifacts/fabric_stain_evaluation_v9/gallery/index.html`). Across 5 diagnostic columns (Original Image, V9 Fused Heatmap, Chemical Stain Mask, Disambiguated Crease Mask, and Color Overlay with Bounding Boxes), the engine cleanly verifies normal pristine fabric (0 false positives), separates structural fold creases from true defects, and isolates both concentrated chemical stains and faint liquid watermarks.*
+*Figure 3: Multi-stage DTU-Net Dual-Pathway anomaly inspection gallery matching the production web evaluation interface (`results/fabric_stain/tiled_final/gallery/index.html`). Across 5 diagnostic columns (Original Image, DTU-Net Fused Heatmap, Chemical Stain Mask, Disambiguated Crease Mask, and Color Overlay with Bounding Boxes), the engine cleanly verifies normal pristine fabric (0 false positives), separates structural fold creases from true defects, and isolates both concentrated chemical stains and faint liquid watermarks.*
 
 ![Fabric Stain ROC and PR Curves](results/fabric_stain/roc_and_pr_curve_v9.png)
-*Figure 3: Precision-Recall and ROC curves on the locked industrial fabric stain dataset, achieving 0.961 Average Precision and 0.773 AUROC under tiled dual-pathway inference.*
+*Figure 4: Precision-Recall and ROC curves on the locked industrial fabric stain dataset, achieving 0.961 Average Precision and 0.773 AUROC under tiled dual-pathway inference.*
 
 ![Fabric Stain Score Distribution](results/fabric_stain/tiled_final/final_score_summary.png)
-*Figure 4: Defect anomaly score separation between pristine normal fabric references and defective stained captures.*
+*Figure 5: Defect anomaly score separation between pristine normal fabric references and defective stained captures.*
 
 ---
 
