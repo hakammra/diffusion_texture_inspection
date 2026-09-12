@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "dataset": "MVTec AD - Leather",
+  "category": "leather",
+  "checkpoint": "/kaggle/input/datasets/abdulhakam646/latest-pt/latest.pt",
+  "image_auroc_v9": 0.9942255434782609,
+  "average_precision_v9": 0.9983047467092143,
+  "baseline_raw_auroc": 0.733016304347826,
+  "baseline_raw_ap": 0.9062377698491377,
+  "per_kind_summary": {
+    "color": {
+      "count": 19,
+      "mean_dice": 0.16088847590259261,
+      "detection_rate": 0.2631578947368421
+    },
+    "cut": {
+      "count": 19,
+      "mean_dice": 0.2670270963717359,
+      "detection_rate": 0.631578947368421
+    },
+    "fold": {
+      "count": 17,
+      "mean_dice": 0.5130458664104942,
+      "detection_rate": 1.0
+    },
+    "glue": {
+      "count": 19,
+      "mean_dice": 0.41855062109411895,
+      "detection_rate": 0.6842105263157895
+    },
+    "good": {
+      "count": 32,
+      "mean_false_positive_pixels": 7.0625,
+      "false_alarm_rate": 0.3125
+    },
+    "poke": {
+      "count": 18,
+      "mean_dice": 0.3981011630939284,
+      "detection_rate": 1.0
+    }
+  },
+  "test_total_count": 124,
+  "test_defective_count": 92,
+  "test_normal_count": 32,
+  "t_distance": 250,
+  "num_diffusion_samples": 2,
+  "top_k_pixels": 50,
+  "tau_strict": 9.38256549835205,
+  "peak_gpu_allocated_gib": 0.48331403732299805,
+  "peak_gpu_reserved_gib": 0.5
+}

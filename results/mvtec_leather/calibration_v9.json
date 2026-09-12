@@ -1,0 +1,12 @@
+{
+  "version": "v9_dual_pathway_leather",
+  "validation_normal_count": 49,
+  "tau_strict": 9.38256549835205,
+  "tau_high": 13.5,
+  "tau_low": 3.5,
+  "photo_tau": 18.5,
+  "photo_weight": 1.0,
+  "top_k_pixels": 50,
+  "num_diffusion_samples": 2,
+  "observed_val_fpr": 0.0
+}

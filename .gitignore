@@ -19,4 +19,7 @@ ENV/
 
 # Temporary / Scratch
 tmp/
+artifacts/
 *.log
+*.npz
+*.zip

@@ -60,17 +60,21 @@ Industrial textile rolls exceed standard GPU memory limits. A sliding-window til
 ## Datasets & Benchmark Results
 
 ### 1. MVTec AD Leather Benchmark
-* **Objective**: Comparative evaluation between baseline single-pass downsampled diffusion and the dual-pathway spatial cluster aggregation pipeline.
-* **Resolution**: $1024 \times 1024$ native captures (downsampled to $224 \times 224$ in single-pass baseline; patch-tiled in the advanced pipeline).
-* **Defect Classes**: Cuts, Structural Folds, Glue Droplets, Puncture Pokes, and Color Discolorations across 124 locked test images (92 defective, 32 normal).
+* **Objective**: Comparative evaluation between the single-pass baseline and the full **DTU-Net V9 Dual-Pathway & Spatial Cluster Aggregation** protocol ($t_{\text{distance}} = 250$, multi-sample stochastic averaging $N=2$).
+* **Evaluation Cohort**: 124 locked official test images (92 defective, 32 normal) evaluated after threshold calibration on 49 held-out normal references.
+* **Defect Classes**: Cuts, Structural Folds, Glue Droplets, Puncture Pokes, and Color Discolorations.
 
-| Pipeline Configuration | Image AUROC | Average Precision (AP) | Defective Mean Dice | Normal False Positive Pixels |
-| :--- | :---: | :---: | :---: | :---: |
-| **Baseline Single-Pass (224×224)** | 0.598 | 0.771 | 0.086 (8.6%) | 733 px (noisy speckles) |
-| **Dual-Pathway Clustered Engine** | **0.787** | **0.931** | **0.584** (58.4%) | **0 px** (100% clean background) |
+| Pipeline Configuration | Image AUROC | Average Precision (AP) | Defect Recall (Sensitivity) | Normal Specificity (Clusters) | Normal False Positive Area |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Baseline Single-Pass (Raw L2)** | 0.733 | 0.906 | 55.4% | 68.8% | 733 px (grain speckles) |
+| **Offline Residual Dual-Pathway** | 0.787 | 0.931 | 82.6% | 90.6% | 0 px (100% clean) |
+| **V9 Full DTU-Net Dual-Pathway (Kaggle GPU)** | **0.994** | **0.998** | **98.9% (91/92)** | **96.9% (31/32)** | **7.1 px** (<0.015% area) |
 
-![MVTec Leather Dual-Pathway Comparison](results/mvtec_leather/dual_pathway_comparison.png)
-*Figure 1: Qualitative comparison across all MVTec Leather defect types. The single-pass baseline suffers from grain-induced false-positive speckles across normal surfaces, while the dual-pathway clustered engine eliminates background false alarms and sharply delineates cuts, folds, glue drops, and punctures.*
+![MVTec Leather ROC and PR Curves](results/mvtec_leather/roc_and_pr_curve_v9.png)
+*Figure 1: ROC and Precision-Recall curves on the official MVTec Leather test set, achieving **0.994 AUROC** and **0.998 Average Precision** under the V9 Dual-Pathway protocol.*
+
+![MVTec Leather V9 Diagnostic Gallery](results/mvtec_leather/evaluation_preview_v9.png)
+*Figure 2: Multi-stage Dual-Pathway anomaly inspection gallery on MVTec Leather (`artifacts/mvtec_leather_evaluation_v9/gallery/index.html`). Across 6 diagnostic columns (Original Input, DTU-Net Reconstruction, Fused Heatmap, Defect Mask, Disambiguated Fold Mask, and Color Overlay with Bounding Boxes), the engine cleanly verifies pristine leather, isolates cuts, glue, and pokes in Amber, and disambiguates structural folds into Cyan.*
 
 ### 2. Custom Industrial Fabric Stain Dataset
 * **Objective**: Real-world evaluation on challenging textile captures containing subtle liquid stains, oil marks, and chemical discolorations.
@@ -112,6 +116,7 @@ diffusion_texture_inspection/
 ├── notebooks/
 │   ├── 03_mvtec_leather_train.ipynb           # MVTec Leather diffusion training
 │   ├── 04_mvtec_leather_evaluate.ipynb        # MVTec Leather baseline evaluation & ROC analysis
+│   ├── 06_mvtec_leather_evaluate_kaggle_v9.ipynb # Kaggle GPU DTU-Net inference & Dual-Pathway V9 evaluation
 │   ├── 07_fabric_stain_train.ipynb            # Fabric stain diffusion training
 │   ├── 08_fabric_stain_evaluate_baseline.ipynb# Baseline fabric stain evaluation
 │   ├── 09_fabric_stain_evaluate_v9_dual_pathway.ipynb # Production dual-pathway evaluation
@@ -165,8 +170,10 @@ Launch Jupyter Lab or Notebook to inspect the evaluated pipelines:
 ```bash
 jupyter lab notebooks/
 ```
-* **For Fabric Stain**: Open [`notebooks/09_fabric_stain_evaluate_v9_dual_pathway.ipynb`](notebooks/09_fabric_stain_evaluate_v9_dual_pathway.ipynb).
-* **For MVTec Leather**: Open [`notebooks/04_mvtec_leather_evaluate.ipynb`](notebooks/04_mvtec_leather_evaluate.ipynb).
+* **For Fabric Stain (Dual-Pathway V9)**: Open [`notebooks/09_fabric_stain_evaluate_v9_dual_pathway.ipynb`](notebooks/09_fabric_stain_evaluate_v9_dual_pathway.ipynb).
+* **For MVTec Leather (Kaggle GPU Full Inference + V9)**: Run [`notebooks/06_mvtec_leather_evaluate_kaggle_v9.ipynb`](notebooks/06_mvtec_leather_evaluate_kaggle_v9.ipynb).
+* **For MVTec Leather (Local Offline Residual Analysis)**: Open [`notebooks/10_mvtec_leather_evaluate_dual_pathway.ipynb`](notebooks/10_mvtec_leather_evaluate_dual_pathway.ipynb).
+* **For MVTec Leather (Baseline Evaluation)**: Open [`notebooks/04_mvtec_leather_evaluate.ipynb`](notebooks/04_mvtec_leather_evaluate.ipynb).
 
 ---
 
