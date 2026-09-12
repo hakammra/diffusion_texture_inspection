@@ -60,12 +60,17 @@ Industrial textile rolls exceed standard GPU memory limits. A sliding-window til
 ## Datasets & Benchmark Results
 
 ### 1. MVTec AD Leather Benchmark
-* **Objective**: Standard baseline validation against canonical industrial benchmarks.
-* **Resolution**: $512 \times 512$
-* **Result**: Achieved **~0.99 Image AUROC**, reliably isolating cuts, fold defects, and surface abrasions.
+* **Objective**: Comparative evaluation between baseline single-pass downsampled diffusion and the dual-pathway spatial cluster aggregation pipeline.
+* **Resolution**: $1024 \times 1024$ native captures (downsampled to $224 \times 224$ in single-pass baseline; patch-tiled in the advanced pipeline).
+* **Defect Classes**: Cuts, Structural Folds, Glue Droplets, Puncture Pokes, and Color Discolorations across 124 locked test images (92 defective, 32 normal).
 
-![MVTec Leather Evaluation Preview](results/mvtec_leather/evaluation_preview.png)
-*Figure 1: DTU-Net anomaly detection on MVTec Leather showing original capture, Simplex-corrupted input, reverse diffusion reconstruction, and pixel residual map isolating cuts and surface tears.*
+| Pipeline Configuration | Image AUROC | Average Precision (AP) | Defective Mean Dice | Normal False Positive Pixels |
+| :--- | :---: | :---: | :---: | :---: |
+| **Baseline Single-Pass (224×224)** | 0.598 | 0.771 | 0.086 (8.6%) | 733 px (noisy speckles) |
+| **Dual-Pathway Clustered Engine** | **0.787** | **0.931** | **0.584** (58.4%) | **0 px** (100% clean background) |
+
+![MVTec Leather Dual-Pathway Comparison](results/mvtec_leather/dual_pathway_comparison.png)
+*Figure 1: Qualitative comparison across all MVTec Leather defect types. The single-pass baseline suffers from grain-induced false-positive speckles across normal surfaces, while the dual-pathway clustered engine eliminates background false alarms and sharply delineates cuts, folds, glue drops, and punctures.*
 
 ### 2. Custom Industrial Fabric Stain Dataset
 * **Objective**: Real-world evaluation on challenging textile captures containing subtle liquid stains, oil marks, and chemical discolorations.
@@ -80,8 +85,8 @@ Industrial textile rolls exceed standard GPU memory limits. A sliding-window til
 | **Specificity** | **90.0%** | [59.6%, 98.2%] |
 | **Balanced Accuracy** | **70.5%** | — |
 
-![Fabric Stain Tiled Evaluation Preview](results/fabric_stain/tiled_final/final_examples.png)
-*Figure 2: Sliding-window tiled diffusion anomaly localization across high-resolution industrial fabric weaves, isolating subtle liquid stains, grease spots, and chemical discolorations.*
+![Fabric Stain Dual-Pathway Diagnostic Gallery](results/fabric_stain/v9_gallery_preview.png)
+*Figure 2: Multi-stage Dual-Pathway anomaly inspection gallery matching the production web evaluation interface (`artifacts/fabric_stain_evaluation_v9/gallery/index.html`). Across 5 diagnostic columns (Original Image, V9 Fused Heatmap, Chemical Stain Mask, Disambiguated Crease Mask, and Color Overlay with Bounding Boxes), the engine cleanly verifies normal pristine fabric (0 false positives), separates structural fold creases from true defects, and isolates both concentrated chemical stains and faint liquid watermarks.*
 
 ![Fabric Stain ROC and PR Curves](results/fabric_stain/roc_and_pr_curve_v9.png)
 *Figure 3: Precision-Recall and ROC curves on the locked industrial fabric stain dataset, achieving 0.961 Average Precision and 0.773 AUROC under tiled dual-pathway inference.*
@@ -106,10 +111,11 @@ diffusion_texture_inspection/
 │
 ├── notebooks/
 │   ├── 03_mvtec_leather_train.ipynb           # MVTec Leather diffusion training
-│   ├── 04_mvtec_leather_evaluate.ipynb        # MVTec Leather evaluation & ROC analysis
+│   ├── 04_mvtec_leather_evaluate.ipynb        # MVTec Leather baseline evaluation & ROC analysis
 │   ├── 07_fabric_stain_train.ipynb            # Fabric stain diffusion training
 │   ├── 08_fabric_stain_evaluate_baseline.ipynb# Baseline fabric stain evaluation
-│   └── 09_fabric_stain_evaluate_v9_dual_pathway.ipynb # Production dual-pathway evaluation
+│   ├── 09_fabric_stain_evaluate_v9_dual_pathway.ipynb # Production dual-pathway evaluation
+│   └── 10_mvtec_leather_evaluate_dual_pathway.ipynb   # Dual-pathway & cluster evaluation on Leather
 │
 ├── data/
 │   ├── README.md                              # Dataset documentation & Kaggle download guide
