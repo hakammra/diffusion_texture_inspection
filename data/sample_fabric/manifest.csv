@@ -1,0 +1,467 @@
+archive_path,split,label,source_relative_path,sha256,width,height,mode
+fabric_stain_pilot/train_normal/1.jpg,train_normal,good,defect free/1.jpg,d4128459b95bbee3df7e2041846e2ad57165a04f505091f155ebd87d9ea02a15,1984,1488,L
+fabric_stain_pilot/train_normal/11.jpg,train_normal,good,defect free/11.jpg,b116d6ccfe76c397637dc48a3803e9e7a5391aefbd71ee030574db22ae6d2af2,1984,1488,L
+fabric_stain_pilot/train_normal/12.jpg,train_normal,good,defect free/12.jpg,997eb4c2a7feae98608c4cd96f5333cadad1d808b057bf0af97abaccfdc48185,1984,1488,L
+fabric_stain_pilot/train_normal/13.jpg,train_normal,good,defect free/13.jpg,bd08f80f94eb1a45f9dfb0cd12909fa74aebcf11d627d7f06914f3e9158b3096,1984,1488,L
+fabric_stain_pilot/train_normal/14.jpg,train_normal,good,defect free/14.jpg,5b2661df783256470088deb9c9e7a9b302ccc2f793775eac13a14376a6740db0,1984,1488,L
+fabric_stain_pilot/train_normal/15.jpg,train_normal,good,defect free/15.jpg,c6008230cb6d7ad735db31a504ddf0464c560d2a3b3c7447af2bde749e92ebf9,1984,1488,L
+fabric_stain_pilot/train_normal/16.jpg,train_normal,good,defect free/16.jpg,771e706867822ec05d217f787335a68b138d985e3556a6eb9f87422549547627,1984,1488,L
+fabric_stain_pilot/train_normal/17.jpg,train_normal,good,defect free/17.jpg,37dcbf10d5febd463d14999ee94d11b010da052b08dbde555455728024f4cd80,1984,1488,L
+fabric_stain_pilot/train_normal/18.jpg,train_normal,good,defect free/18.jpg,9f43a6a5b1992649c61188826cfaa013122375bc9ab49a6a6edb114ae031f1b6,1984,1488,L
+fabric_stain_pilot/train_normal/21.jpg,train_normal,good,defect free/21.jpg,d8c401fc1333abae6a1dcc3fdbfe6a7c1fe429111e826565c7070c86ee36459d,1984,1488,L
+fabric_stain_pilot/train_normal/22.jpg,train_normal,good,defect free/22.jpg,0313687d7491a4450596a26cce64aa050a65ec331a2ba275cbce96abe9bac75f,1984,1488,L
+fabric_stain_pilot/train_normal/23.jpg,train_normal,good,defect free/23.jpg,9c3518ea0bd3eaaf909120baba5965d262f679ec23c8fc461b8af770a9a04822,1984,1488,L
+fabric_stain_pilot/train_normal/24.jpg,train_normal,good,defect free/24.jpg,0817b33b47998047a8f9395bcd27b64814746699e3da40ff43ecadb3afb8975e,1984,1488,L
+fabric_stain_pilot/train_normal/25.jpg,train_normal,good,defect free/25.jpg,c4cfabc1f7176937d861d0c759381f4c6f58826cd209267f6da45c49bc378229,1984,1488,L
+fabric_stain_pilot/train_normal/26.jpg,train_normal,good,defect free/26.jpg,27cdee023bf4fcea5c041a53349335477f2224077136f08ac802cf35b8e92349,1984,1488,L
+fabric_stain_pilot/train_normal/28.jpg,train_normal,good,defect free/28.jpg,c2623a173397278c10ce356305e5782e10ca20f7855cd9fb64d80d6f5c9bd575,1984,1488,L
+fabric_stain_pilot/train_normal/3.jpg,train_normal,good,defect free/3.jpg,146ab9a77d6d467f2cb6e5aba674fc9f890df43247260cceb3ada6c80d4903d1,1984,1488,L
+fabric_stain_pilot/train_normal/30.jpg,train_normal,good,defect free/30.jpg,f3478bd4cddd9eb792bcb7722397d2dab64dd4c505c9c17a796104ec1534f756,1984,1488,L
+fabric_stain_pilot/train_normal/31.jpg,train_normal,good,defect free/31.jpg,67689da8d866feb8f2e447ad14f8b58bc983b3569c98f3c6d7a3173c1e663219,1984,1488,L
+fabric_stain_pilot/train_normal/32.jpg,train_normal,good,defect free/32.jpg,90865c419636e90613641f9febc8295737193eceddd04fc386588779744a87b4,1984,1488,L
+fabric_stain_pilot/train_normal/34.jpg,train_normal,good,defect free/34.jpg,12eee636c4c6fea696a9959c8ff986e5772b45c8c0ce007897503a016ea7a50c,1488,1984,L
+fabric_stain_pilot/train_normal/35.jpg,train_normal,good,defect free/35.jpg,3e05586859d5a053210cabc312c4f221c6c3e5c5bd1d8d06583bbf1167d72511,1488,1984,L
+fabric_stain_pilot/train_normal/37.jpg,train_normal,good,defect free/37.jpg,fad2e3f26e5e4ce7e05816cc4fce7557068ba8932f88532acf5e185ca5d23774,1488,1984,L
+fabric_stain_pilot/train_normal/38.jpg,train_normal,good,defect free/38.jpg,6b34cadbd03e161625587a715c8c608682ce29bc2ae30da587f2b928f4d47cf3,1488,1984,L
+fabric_stain_pilot/train_normal/4.jpg,train_normal,good,defect free/4.jpg,487caf5fb769787f7e08da7f0f7438a75967fc52e9470f5c5ac642cb7febb148,1984,1488,L
+fabric_stain_pilot/train_normal/40.jpg,train_normal,good,defect free/40.jpg,bcfc97e949046d0d412f7f3dde45988d9b23e8fe4e150cd4c9303f432368e053,1984,1488,L
+fabric_stain_pilot/train_normal/41.jpg,train_normal,good,defect free/41.jpg,1e3c1975783134bdf0741e112f2ede8d04c32f9c4ff2c3d4746d83760182f66e,1984,1488,L
+fabric_stain_pilot/train_normal/42.jpg,train_normal,good,defect free/42.jpg,3b850eb4c32db9d41bdcccae631abe779d5a3bc19e77445c5979e0bab5fddcd2,1488,1984,L
+fabric_stain_pilot/train_normal/43.jpg,train_normal,good,defect free/43.jpg,2ecd3888d5f54f1b1c4d490ffcbad0768dde8c7079032357d57e40b93c6e076b,1488,1984,L
+fabric_stain_pilot/train_normal/44.jpg,train_normal,good,defect free/44.jpg,80c8475a2f5ccfef91747a1abf2db7c9c242038c9da2b12602f20914ae666bf9,1488,1984,L
+fabric_stain_pilot/train_normal/45.jpg,train_normal,good,defect free/45.jpg,f2fae11f63c40ce8db2a5ce8d7fde72be0e340d244cb2de7145aada383f0755b,1488,1984,L
+fabric_stain_pilot/train_normal/46.jpg,train_normal,good,defect free/46.jpg,c515a4d4ab0c2d6ab4e8657d41bb6fe9dcc9ef2f84cf0e5a0c504c9c2949878a,1488,1984,L
+fabric_stain_pilot/train_normal/48.jpg,train_normal,good,defect free/48.jpg,7906d468d3a9983ac3d67f0ee5ac1d1abc7a7a24db1de8bf696bc119c7a95089,1984,1488,L
+fabric_stain_pilot/train_normal/50.jpg,train_normal,good,defect free/50.jpg,9dc37c9dd57c8efe8e48a214b41cfc9a5b58e5c3765d8d5ada2342836e8b410f,1984,1488,L
+fabric_stain_pilot/train_normal/51.jpg,train_normal,good,defect free/51.jpg,370db6b929cc8de8a0b8127ed0e109b31495a31b80c190250c20f128e4d670ec,1984,1488,L
+fabric_stain_pilot/train_normal/52.jpg,train_normal,good,defect free/52.jpg,5159759ea90f630410e43ad725a920ecda177296d197a164fa768f8b699a2ca9,1984,1488,L
+fabric_stain_pilot/train_normal/55.jpg,train_normal,good,defect free/55.jpg,273bf9b879a85067deea973026c6101c4e7ee59c2a03118e7f1da42c8a4e3f0a,1488,1984,L
+fabric_stain_pilot/train_normal/56.jpg,train_normal,good,defect free/56.jpg,03a730f614eaa01350013a4db3ad23834fb167621ad3e40da9f6a4cc60526edd,1488,1984,L
+fabric_stain_pilot/train_normal/59.jpg,train_normal,good,defect free/59.jpg,e11844f9371005036738f5f433fad1d773485f5a6fdd89f1bd4d675c3b4f3714,1984,1488,L
+fabric_stain_pilot/train_normal/6.jpg,train_normal,good,defect free/6.jpg,67dbbcc196d2855490f2636e7bad09272b4aed5857f68ee01b0cb5d2dcfbec28,1984,1488,L
+fabric_stain_pilot/train_normal/60.jpg,train_normal,good,defect free/60.jpg,0330b8957600e2a3aec9015e070b93cc65a34354990be762139665e97a80ac13,1984,1488,L
+fabric_stain_pilot/train_normal/63.jpg,train_normal,good,defect free/63.jpg,385df7177496d2e3f6499edbd00a9f5dad01359de20d5b3776fef30a9ac28e73,1984,1488,L
+fabric_stain_pilot/train_normal/64.jpg,train_normal,good,defect free/64.jpg,8505e8e8eaf4ba490fa5c7c4097fb16c70ebb7513d01cfc430aae59cc00cc130,1984,1488,L
+fabric_stain_pilot/train_normal/65.jpg,train_normal,good,defect free/65.jpg,fa1e212eae8ddfa9fb9bdd72b9d5b860b58ef7d4dc275a31f48ba6d8604a5972,1984,1488,L
+fabric_stain_pilot/train_normal/66.jpg,train_normal,good,defect free/66.jpg,ada64b52af705aaa272838eb0b75ada7500da61be07d87ca3fa5271e062ec851,1488,1984,L
+fabric_stain_pilot/train_normal/68.jpg,train_normal,good,defect free/68.jpg,8edc5bdb52828feb716b6f0171065dd8b4991f361f7e514841ac61726f9ad4da,1984,1488,L
+fabric_stain_pilot/train_normal/7.jpg,train_normal,good,defect free/7.jpg,a5596bbccd07144a4806fad2599bbbc688b60eda0e5ac605f051722c78948938,1984,1488,L
+fabric_stain_pilot/train_normal/9.jpg,train_normal,good,defect free/9.jpg,2050de4c2cda7bbbf6ae7f2cb716683954784cc4873daa7b18f844bedaa685bf,1984,1488,L
+fabric_stain_pilot/val_normal/10.jpg,val_normal,good,defect free/10.jpg,6bf3f6cae4e7f38b62bbfad86dd6b1fea10eed075ee2be606b739a532b625814,1984,1488,L
+fabric_stain_pilot/val_normal/2.jpg,val_normal,good,defect free/2.jpg,4209a62d6cedc259bb93fbde34ac01ba723ed07fd59c5c8bd07fa8001ce59c5a,1984,1488,L
+fabric_stain_pilot/val_normal/20.jpg,val_normal,good,defect free/20.jpg,9a6676695ee0d6025e249c5734d60c6a7e66ed809d5974e8ae029bfccd7c095c,1984,1488,L
+fabric_stain_pilot/val_normal/29.jpg,val_normal,good,defect free/29.jpg,7f390934148ef342f8a73441e8e522dc4474e6c035bcf4638ae31e0690d412d2,1488,1984,L
+fabric_stain_pilot/val_normal/33.jpg,val_normal,good,defect free/33.jpg,1a2f82f2dd7067c39076aaab3cb7d70fb21481d4e79e03ad2b9ea1eece20ff08,1488,1984,L
+fabric_stain_pilot/val_normal/36.jpg,val_normal,good,defect free/36.jpg,236efaeb9c7bdae6a29b301ca975b7f56b1abd374262d57122028b7f1fc0e042,1488,1984,L
+fabric_stain_pilot/val_normal/5.jpg,val_normal,good,defect free/5.jpg,a939d8274d1105956a497292791ad1f7f2dea34918a8463ee398d598e11a737c,1984,1488,L
+fabric_stain_pilot/val_normal/53.jpg,val_normal,good,defect free/53.jpg,67efc5c061673f6903416f96b7c71e55b319b3a57c70a5d650d5cdf46279bfc6,1984,1488,L
+fabric_stain_pilot/val_normal/61.jpg,val_normal,good,defect free/61.jpg,35a2bba3da67cc0d4b36ff32828287207a54782ddb705cd52031425a2a16724c,1984,1488,L
+fabric_stain_pilot/val_normal/67.jpg,val_normal,good,defect free/67.jpg,a5a562f448d5a315f2ee16698be1b5c16a6b05057b76e93370f7f3b955b3f2fd,1488,1984,L
+fabric_stain_pilot/test/good/19.jpg,test/good,good,defect free/19.jpg,1231cfdc799c6d6457246935a491b9be820843759a31124155200a77cbf0346a,1984,1488,L
+fabric_stain_pilot/test/good/27.jpg,test/good,good,defect free/27.jpg,159f41d3f11585c15112d172cd443c2bf13724531bdfff7159be79896f304974,1984,1488,L
+fabric_stain_pilot/test/good/39.jpg,test/good,good,defect free/39.jpg,d044cba2a1670f3960171fa92510bcafdd409677071162e38eefa3665dee3eac,1984,1488,L
+fabric_stain_pilot/test/good/47.jpg,test/good,good,defect free/47.jpg,919b0008329177fbbdce0c6f2330d01f46d07d1e626c65bbcee0584b460deb07,1984,1488,L
+fabric_stain_pilot/test/good/49.jpg,test/good,good,defect free/49.jpg,7c56c13df4836fe6722e8d965ab1b79bb4e09bb8f8774968fed7fd50535a5462,1984,1488,L
+fabric_stain_pilot/test/good/54.jpg,test/good,good,defect free/54.jpg,3cbd718f80e4db61b0534aed2e06f50f875f9ba03af5fec00ac34bf61e0c38b4,1488,1984,L
+fabric_stain_pilot/test/good/57.jpg,test/good,good,defect free/57.jpg,ca3fe0b50d5468220800b76100c3ee6867f13241a7b9be005d3612f46e6ad39d,1488,1984,L
+fabric_stain_pilot/test/good/58.jpg,test/good,good,defect free/58.jpg,e8066dfa8f4e18aa26468c45d99e32a81c694d59ddaae2234fed796c8e643da0,1488,1984,L
+fabric_stain_pilot/test/good/62.jpg,test/good,good,defect free/62.jpg,c723ba10036a0502353aded6d1fde4f4cb8f816824bc9ad99069a1c7df161897,1984,1488,L
+fabric_stain_pilot/test/good/8.jpg,test/good,good,defect free/8.jpg,6471f50d41c7a372acdfdbaf0bb55362ddddc33480dfc7c7f867c18decd71237,1984,1488,L
+fabric_stain_pilot/test/stain/1.jpg,test/stain,stain,stain/1.jpg,1cd154abe6caeb87dce1c2436a3a2e5c59720d59932a8326ddc85b25765ab9bc,1488,1984,L
+fabric_stain_pilot/test/stain/10.jpg,test/stain,stain,stain/10.jpg,a00ab562d426369035d852d0074fb54dd2485cf1d516978392dcd256dd83b6bb,1984,1488,L
+fabric_stain_pilot/test/stain/100.jpg,test/stain,stain,stain/100.jpg,72f11c5412bb5e51d5485364c2f9b015731eab15e10b49a1a1ea87ec0419f8da,1488,1984,L
+fabric_stain_pilot/test/stain/101.jpg,test/stain,stain,stain/101.jpg,40eca5921ea06876a9bccfc1bc7f15a7a49a66480b351c2d1c00aa97b5622506,1984,1488,L
+fabric_stain_pilot/test/stain/102.jpg,test/stain,stain,stain/102.jpg,8634b2027063f77e077d08fe630527cb959921d67b41c4d01c2b9da453599c70,1984,1488,L
+fabric_stain_pilot/test/stain/103.jpg,test/stain,stain,stain/103.jpg,147f9a38df06c1c582071beb2faa803749e2acac7a573d365d9ce1f1a872c342,1488,1984,L
+fabric_stain_pilot/test/stain/104.jpg,test/stain,stain,stain/104.jpg,de9706f49f30b4877f2feb7bb11fb7954b7a284947280c22b3a28705261cf95d,1984,1488,L
+fabric_stain_pilot/test/stain/105.jpg,test/stain,stain,stain/105.jpg,c54059057c38e52fe35384a69ebfa481ec59c70a3f27b3b78076b85af7e8e6a0,1984,1488,L
+fabric_stain_pilot/test/stain/106.jpg,test/stain,stain,stain/106.jpg,b86a9ac12dd487617fa55b5191b40c904f3a65eb0413fc4fc22d8373180c3ce1,1488,1984,L
+fabric_stain_pilot/test/stain/107.jpg,test/stain,stain,stain/107.jpg,27a538387afde994bc88e0206b0ed82d09ef4e27de07ffd2498177c5fb055a72,1488,1984,L
+fabric_stain_pilot/test/stain/108.jpg,test/stain,stain,stain/108.jpg,826169537a3cbd2a406214752b72efdcb656825bc558287b54f20bddeb758504,1488,1984,L
+fabric_stain_pilot/test/stain/109.jpg,test/stain,stain,stain/109.jpg,c3f0a5b6f3f33ba954270a43a8f4672f3b9fa365c05f9cffba0bf4bb53eeb1d1,1488,1984,L
+fabric_stain_pilot/test/stain/11.jpg,test/stain,stain,stain/11.jpg,dd379fd5875e3c8cbf990be0bafea4fc258aba88a103e30189691a375a99d989,1984,1488,L
+fabric_stain_pilot/test/stain/110.jpg,test/stain,stain,stain/110.jpg,f24b95b68f0ed84ed5ac0243dff7192a0644e21ba8f4cf6686441f8692e43a6e,1488,1984,L
+fabric_stain_pilot/test/stain/111.jpg,test/stain,stain,stain/111.jpg,df6ec656f5d7f56ee92f35bd84c48b31fdc7d4f6e6b21e1a3cfba6d2b98a7c1b,1984,1488,L
+fabric_stain_pilot/test/stain/112.jpg,test/stain,stain,stain/112.jpg,efb31bc3fee77bdb2110700ba08a8e6e98af93a044a1d7db89178b3c435e1e1a,1488,1984,L
+fabric_stain_pilot/test/stain/113.jpg,test/stain,stain,stain/113.jpg,fb7f25213c0312b4e4f1ab6249911e788f5ae0c3aa9d4f81244b0d3fa862612f,1984,1488,L
+fabric_stain_pilot/test/stain/114.jpg,test/stain,stain,stain/114.jpg,c7e49ba2a6d9d8e0fb8f5b93213ebc916518191c471fc6b7ca72aa2075cc8388,1488,1984,L
+fabric_stain_pilot/test/stain/115.jpg,test/stain,stain,stain/115.jpg,09afbe71013a0828612fc0c9b0074b5a49583ba3aef213b1e54d5b270e8aa0b5,1488,1984,L
+fabric_stain_pilot/test/stain/116.jpg,test/stain,stain,stain/116.jpg,cd10db0c501a5e6dffaf448e86d6a5355ae435cf6797ec86d8616cb80cf976a6,1488,1984,L
+fabric_stain_pilot/test/stain/117.jpg,test/stain,stain,stain/117.jpg,9524f5f32ead1a4b253cb46c4014eb51e8bc8d9f1d1ecfaede81163a3ce6e7d9,1488,1984,L
+fabric_stain_pilot/test/stain/118.jpg,test/stain,stain,stain/118.jpg,85b3e1ca1cc9ed967d8a1954377c8e75e0b998d62d071193b7ef60ad2c2ff1f4,1984,1488,L
+fabric_stain_pilot/test/stain/119.jpg,test/stain,stain,stain/119.jpg,650a7b971c97bc688c4b029faf0f011c718933fc1736ebd771a372cba57082b1,1984,1488,L
+fabric_stain_pilot/test/stain/12.jpg,test/stain,stain,stain/12.jpg,2938e8798599b6c9ed1dbc6a14c7af2bc1e24c98a65008c3f4b50b544b76f2db,1984,1488,L
+fabric_stain_pilot/test/stain/120.jpg,test/stain,stain,stain/120.jpg,0bc8f5151731eb83a0f2fa4ce925cbc63d60d066c0ec9010ab49904bb86f9fb6,1984,1488,L
+fabric_stain_pilot/test/stain/121.jpg,test/stain,stain,stain/121.jpg,c866f5ecffe3440be4fdf7757d7a71f28bbdd7bfd4361b7b1d2d8a59bd3e987d,1984,1488,L
+fabric_stain_pilot/test/stain/122.jpg,test/stain,stain,stain/122.jpg,74988818de32c683c0d02828ef8738067effebeb259365e4b40dbd79824275e8,1984,1488,L
+fabric_stain_pilot/test/stain/123.jpg,test/stain,stain,stain/123.jpg,07bcc34dec8c94fdb9d8a2c713399a889466486ee0ebd5d5d6958e9b2e5a9d1d,1984,1488,L
+fabric_stain_pilot/test/stain/124.jpg,test/stain,stain,stain/124.jpg,b1c31589447daaca5d547a955d2403af32bca15a28a675dedca53afd219ec83a,1984,1488,L
+fabric_stain_pilot/test/stain/125.jpg,test/stain,stain,stain/125.jpg,acc57597d088de3efdd80cf517b8f51292d78351b82cf6ec4000f466bb882ac9,1984,1488,L
+fabric_stain_pilot/test/stain/126.jpg,test/stain,stain,stain/126.jpg,c893051effc75d31d7c6f818c58f5814460c601fe0487a362c7c2b95fe6cdaf6,1984,1488,L
+fabric_stain_pilot/test/stain/127.jpg,test/stain,stain,stain/127.jpg,dd2be8b2a9e637979c7b1950cef72829d97c75952daacb45d851443eacd22330,1984,1488,L
+fabric_stain_pilot/test/stain/128.jpg,test/stain,stain,stain/128.jpg,f6805b0ed522d71ed1494a7bf76d72c15d3e3a5c19218131cffdae7fa07034e7,1984,1488,L
+fabric_stain_pilot/test/stain/129.jpg,test/stain,stain,stain/129.jpg,d81f118842183f5bebd1c0691099ec25e87cf7d61266732777fa271107f4ba39,1984,1488,L
+fabric_stain_pilot/test/stain/13.jpg,test/stain,stain,stain/13.jpg,66ccd5180b2436c9a303fb24a6683d942767f69adb829d69a03c6e2d888f4f08,1984,1488,L
+fabric_stain_pilot/test/stain/130.jpg,test/stain,stain,stain/130.jpg,4de4bb837009f74a7fd902925d9d8f213fd3969498b50bf19e4353e8c7af2dc8,1984,1488,L
+fabric_stain_pilot/test/stain/131.jpg,test/stain,stain,stain/131.jpg,46c052c3f3e6259aa50281d43e64248347a565b84dc677301069ddd75e36873c,1984,1488,L
+fabric_stain_pilot/test/stain/132.jpg,test/stain,stain,stain/132.jpg,1272c2a0282a3e0c1d6971cccaa7dca501cdc20b50cb5a5398e67933ccbc3738,1984,1488,L
+fabric_stain_pilot/test/stain/133.jpg,test/stain,stain,stain/133.jpg,1417cedc4ad4f5266ee25559febc4024f0f9a4714e2408e9a944305b3d349d02,1984,1488,L
+fabric_stain_pilot/test/stain/134.jpg,test/stain,stain,stain/134.jpg,27303db6465cd1b6e092fc7cc20069e21f44369a605568393949e9b937c00d0f,1984,1488,L
+fabric_stain_pilot/test/stain/135.jpg,test/stain,stain,stain/135.jpg,ba60d2a056c8d1a999df01254013bfd5b978be92ffcadfb1415a805ca808309d,1984,1488,L
+fabric_stain_pilot/test/stain/136.jpg,test/stain,stain,stain/136.jpg,7df5ec8df913da1b53ae21cd8090ec0ef38fcfedff2e2d514b5476061081b5a0,1984,1488,L
+fabric_stain_pilot/test/stain/137.jpg,test/stain,stain,stain/137.jpg,13c68049061c4093b8b371888a34f53bd1129629ae4016bb6980539b14c2f1b6,1984,1488,L
+fabric_stain_pilot/test/stain/138.jpg,test/stain,stain,stain/138.jpg,d394c8db2a6105dbf578cea06054bbd1b68e962492c800eb6737409c75acf7e6,1488,1984,L
+fabric_stain_pilot/test/stain/139.jpg,test/stain,stain,stain/139.jpg,6c6aa9a3691df8e16c78494ece6bcd22e6e6d03b5fe9832d6dc05b5bfcd7b4bd,1488,1984,L
+fabric_stain_pilot/test/stain/14.jpg,test/stain,stain,stain/14.jpg,32dba5d980140a03d737c77aeb8f4f276775601c8236f8ffc565de1868890043,1984,1488,L
+fabric_stain_pilot/test/stain/140.jpg,test/stain,stain,stain/140.jpg,d4c9e1325750a487380012ec4212d888ec2e0c0fe18e86aa7cf7bce3ad37e289,1488,1984,L
+fabric_stain_pilot/test/stain/141.jpg,test/stain,stain,stain/141.jpg,a42d32cbb5b0ff16d897fa2055259e88beeba14b83c0c358b63c6f7fa37944aa,1488,1984,L
+fabric_stain_pilot/test/stain/142.jpg,test/stain,stain,stain/142.jpg,8bb308c5b3d12505ac37609c6586a703fea8fa72755ab6542e02c36193b0a135,1488,1984,L
+fabric_stain_pilot/test/stain/143.jpg,test/stain,stain,stain/143.jpg,7178d621f784d0e324ec6728f91c3f27c4f4c2e6314eaee152f2f5c7dbfc66b2,1488,1984,L
+fabric_stain_pilot/test/stain/144.jpg,test/stain,stain,stain/144.jpg,3110aceb7a2511c3155eb8e435ab16a7ff4aab48b645e7cff45e02bfc530a8c3,1488,1984,L
+fabric_stain_pilot/test/stain/145.jpg,test/stain,stain,stain/145.jpg,7e4d9f0a5aef094e26c725162dab75d6cc090648bb5c34c714173886d412ea56,1488,1984,L
+fabric_stain_pilot/test/stain/146.jpg,test/stain,stain,stain/146.jpg,4e59da7a9df22973a44b083f61e3e79841afad9aaa693af0b5b586abc9680574,1488,1984,L
+fabric_stain_pilot/test/stain/147.jpg,test/stain,stain,stain/147.jpg,253a03b16a5509c9bc1d09208a5117b52b4baf1a661d89b28895de62873c8c69,1488,1984,L
+fabric_stain_pilot/test/stain/148.jpg,test/stain,stain,stain/148.jpg,89982afaba4d6293ac29c3014e29ba0eccea17158a2cfcdbf02c3fc387f84f7a,1488,1984,L
+fabric_stain_pilot/test/stain/149.jpg,test/stain,stain,stain/149.jpg,32700a3848eef2e5f3bb54df82af4bd7db6876b5d19478fdf3560bb923e14b04,1488,1984,L
+fabric_stain_pilot/test/stain/15.jpg,test/stain,stain,stain/15.jpg,9c0aaa6dfc66876598fd776e2a971c1445f6d64a5c7f0d9fd58da66211064332,1984,1488,L
+fabric_stain_pilot/test/stain/150.jpg,test/stain,stain,stain/150.jpg,99e51d6e83c43d876530ca325f4a4ac23256e83efcc922c9c9225232bac68b36,1488,1984,L
+fabric_stain_pilot/test/stain/151.jpg,test/stain,stain,stain/151.jpg,2ae029aab5c4326843397d1fe0f315885c62e9c10ceec86c97de5ac8fe2656d3,1488,1984,L
+fabric_stain_pilot/test/stain/152.jpg,test/stain,stain,stain/152.jpg,5b7dac3823d5573a30017c57810e29066430ebc64dfc60be78588741cf743947,1488,1984,L
+fabric_stain_pilot/test/stain/153.jpg,test/stain,stain,stain/153.jpg,b61135e2d6ad188c1db95139ddabdad861f936dd19a82646938fbd4829b7bdeb,1488,1984,L
+fabric_stain_pilot/test/stain/154.jpg,test/stain,stain,stain/154.jpg,efdd912727cb3a3e6450ee4cc9d97f8f0cba848f0c1d0c4c33f074a84f2c414d,1488,1984,L
+fabric_stain_pilot/test/stain/155.jpg,test/stain,stain,stain/155.jpg,a2e0b9c6d541cf2788e20d0115bbce0b0d98005ca4ff8a826c04096db0c881af,1488,1984,L
+fabric_stain_pilot/test/stain/156.jpg,test/stain,stain,stain/156.jpg,24e701dcd7b5cc88f8360c141b5004aa76824f05fdc32a5cd43555bdc044441b,1488,1984,L
+fabric_stain_pilot/test/stain/157.jpg,test/stain,stain,stain/157.jpg,3ce06e013267ee21618a26b003c03c9ab7e21b415001c17fa973ebda26bb0d92,1488,1984,L
+fabric_stain_pilot/test/stain/158.jpg,test/stain,stain,stain/158.jpg,c7b27f7986275ec909fe3ec391f8894f409f91574e3812c280ccdf02fac3e765,1488,1984,L
+fabric_stain_pilot/test/stain/159.jpg,test/stain,stain,stain/159.jpg,c0f8b789de7642c28b62c9fb1966c20b9089ba94ef9a0832f34f034c38e01f20,1984,1488,L
+fabric_stain_pilot/test/stain/16.jpg,test/stain,stain,stain/16.jpg,ae6259c6a7efdc9b967fde90949f25e3c1d3121b576852fddbfc5c1da2d068ad,1984,1488,L
+fabric_stain_pilot/test/stain/160.jpg,test/stain,stain,stain/160.jpg,710130eb1f484538cd938aebe47882e57334f1bde87a66a7b6a3ebcd4bf63311,1984,1488,L
+fabric_stain_pilot/test/stain/161.jpg,test/stain,stain,stain/161.jpg,34bab2e6672599698594995f0a7be8c2bc8f26eebc023f696456c983052c1ee3,1984,1488,L
+fabric_stain_pilot/test/stain/162.jpg,test/stain,stain,stain/162.jpg,06b22f714466dd423c5a46064173bf32b4119f1f21de2fcf04a88fca9bfa0bf5,1984,1488,L
+fabric_stain_pilot/test/stain/163.jpg,test/stain,stain,stain/163.jpg,c68c10fde51ef8c744bbacf87f5c7cea8505641fe9c1f7046aea14d5f1d5103e,1984,1488,L
+fabric_stain_pilot/test/stain/164.jpg,test/stain,stain,stain/164.jpg,6cb0537419d42da489c6f3a6f03492200de895342a3debe55f7e656ea445f70a,1984,1488,L
+fabric_stain_pilot/test/stain/165.jpg,test/stain,stain,stain/165.jpg,e7eda964a6c65bb313ace6ed311bdbf87c8522a453baabf4181467bd3543f3a3,1984,1488,L
+fabric_stain_pilot/test/stain/166.jpg,test/stain,stain,stain/166.jpg,8dfae836c8b5efcde8c4ea8893c9de52432901912069e0cf80b602915c25f1c9,1984,1488,L
+fabric_stain_pilot/test/stain/167.jpg,test/stain,stain,stain/167.jpg,d0481e28af5f64869f909fb8987537849acb19fec44d95b8f29b3412a97c87f7,1984,1488,L
+fabric_stain_pilot/test/stain/168.jpg,test/stain,stain,stain/168.jpg,7f2fdf99775fa5225611b3a5c2019adf9ad1bc3b739db8a64a9b9b892b91dc70,1984,1488,L
+fabric_stain_pilot/test/stain/169.jpg,test/stain,stain,stain/169.jpg,75bedc56310ec5bfbad75e325f1778c41ceeb8789f7976367d972e588140a339,1984,1488,L
+fabric_stain_pilot/test/stain/17.jpg,test/stain,stain,stain/17.jpg,e478e0f31099b0197e09e3912eec106a05c3ebbc66955957995057f2ca790396,1984,1488,L
+fabric_stain_pilot/test/stain/170.jpg,test/stain,stain,stain/170.jpg,452795578ef5b5f46d67c39cd0a17a2133a783b39079965bd01a7356d4343c61,1984,1488,L
+fabric_stain_pilot/test/stain/171.jpg,test/stain,stain,stain/171.jpg,831ca1d3ad6d818567e8ad59f454cefb7aab6871efe323089a97d98638c4ccb5,1984,1488,L
+fabric_stain_pilot/test/stain/172.jpg,test/stain,stain,stain/172.jpg,f67c25da534d8e952590a821b4b15c9c9c75574ff7ad6d66f63f6888ebac6f66,1984,1488,L
+fabric_stain_pilot/test/stain/173.jpg,test/stain,stain,stain/173.jpg,e7bfc72ce1753cb017a868c888309b6a42a6215383c32713dd2302aab5e7de24,1984,1488,L
+fabric_stain_pilot/test/stain/174.jpg,test/stain,stain,stain/174.jpg,4a0bfa677cc786cbe165e0254bfe643206fc04a0f3d3c52227b606db245fe9e8,1984,1488,L
+fabric_stain_pilot/test/stain/175.jpg,test/stain,stain,stain/175.jpg,e87ca7d0a2433ba1f11561fe0a098924763c6bea86d78ecf4e4ef58c1d85d75c,1984,1488,L
+fabric_stain_pilot/test/stain/176.jpg,test/stain,stain,stain/176.jpg,a2c58a41e146bf2c24b00f0dc96118a988d13132991d7e875997417fd8ea0994,1984,1488,L
+fabric_stain_pilot/test/stain/177.jpg,test/stain,stain,stain/177.jpg,33ecf859dbed8f197051a9661a775b99c27e0fd9f0115f602b6949d502986620,1984,1488,L
+fabric_stain_pilot/test/stain/178.jpg,test/stain,stain,stain/178.jpg,d63600de1035a2e8ac1c7748c413e60863438b9c704edacce041fe4f7a9143b3,1984,1488,L
+fabric_stain_pilot/test/stain/179.jpg,test/stain,stain,stain/179.jpg,cc42a71c53a59a1dad0c8b8b86678d9e8d2752cabc481d82186460f10d8810f4,1984,1488,L
+fabric_stain_pilot/test/stain/18.jpg,test/stain,stain,stain/18.jpg,a6c08ed1c63feccc4f7ea88b5f38a04cef0608097bcc9b4ac72302293b327a55,1984,1488,L
+fabric_stain_pilot/test/stain/180.jpg,test/stain,stain,stain/180.jpg,152c13eee8d4f718d351f70bfec07d18eba6f46dc4bb0f2f273b89f441333493,1984,1488,L
+fabric_stain_pilot/test/stain/181.jpg,test/stain,stain,stain/181.jpg,ab4ddb8f8e8ee187704d876bd971ce8582d196ff133187b0e11eaae7a1605633,1984,1488,L
+fabric_stain_pilot/test/stain/182.jpg,test/stain,stain,stain/182.jpg,abc846db0244c51cc809812c527f94fd9627f5da2065b4247d994143c6bc8280,1984,1488,L
+fabric_stain_pilot/test/stain/183.jpg,test/stain,stain,stain/183.jpg,4f5e2fe7a8b5c9151b0e73c7502c80031b09767c6f09f8c3d565f321ffa1b5d2,1984,1488,L
+fabric_stain_pilot/test/stain/184.jpg,test/stain,stain,stain/184.jpg,1d2b8549d9982e48f426f41f4fec99ef4ec549dec474e01cbd7e2c243d2ea9ff,1488,1984,L
+fabric_stain_pilot/test/stain/185.jpg,test/stain,stain,stain/185.jpg,8ac7480ba0ba6080eac3586c63eb9b188b459cbb1db413ea639bbe61fe2794f6,1488,1984,L
+fabric_stain_pilot/test/stain/186.jpg,test/stain,stain,stain/186.jpg,d42f478599c626623691160ed16a635551877cca21d08f179808fd91c433da7f,1488,1984,L
+fabric_stain_pilot/test/stain/187.jpg,test/stain,stain,stain/187.jpg,a64ab3e235b340649601a969b096ea8777fb2a55b6344b9c75b9836f09c46054,1488,1984,L
+fabric_stain_pilot/test/stain/188.jpg,test/stain,stain,stain/188.jpg,e642bae9b1c5af1ff27b89da188daaaddffc71c429e602d278d23a19bc3b2cbc,1488,1984,L
+fabric_stain_pilot/test/stain/189.jpg,test/stain,stain,stain/189.jpg,76382c3179bea1a85d98b5f196dfe630d67fc141ce71c56fee5bb47f8957f8b0,1488,1984,L
+fabric_stain_pilot/test/stain/19.jpg,test/stain,stain,stain/19.jpg,80732f9df8b843f6e8d4c6aaadf9107337221cb652e38835b8d91430adef8956,1984,1488,L
+fabric_stain_pilot/test/stain/190.jpg,test/stain,stain,stain/190.jpg,ceb15908414dc58a3419362efcc5df31cb70fccc7b3267b9d87ca79579768fb3,1984,1488,L
+fabric_stain_pilot/test/stain/191.jpg,test/stain,stain,stain/191.jpg,ef09000b3b008a6e084bd897e6914e54f8dee1d8e3f5465f8256fc04c5f158a2,1984,1488,L
+fabric_stain_pilot/test/stain/192.jpg,test/stain,stain,stain/192.jpg,159476620d1359723bc1d47bd2f6fe3c89bc416e1556f17904fdca3e1838a87b,1984,1488,L
+fabric_stain_pilot/test/stain/193.jpg,test/stain,stain,stain/193.jpg,738f50b27f4c222a62a0cb76dcd39a7645a2c6afa79e97ebc5cb0392181b7bbc,1488,1984,L
+fabric_stain_pilot/test/stain/194.jpg,test/stain,stain,stain/194.jpg,646fad911b44ed8348665450858690f9e86daab069d873a895065416cbb226b2,1488,1984,L
+fabric_stain_pilot/test/stain/195.jpg,test/stain,stain,stain/195.jpg,112746ae57f59e74dd1d90ac6daa2d3bc1cc412e7aea666e1d8f0782559ef2df,1488,1984,L
+fabric_stain_pilot/test/stain/196.jpg,test/stain,stain,stain/196.jpg,5ec938a8d8f82a3e25f5f63cf559bf53082d946fbd97846fcf2e6bee8377a853,1984,1488,L
+fabric_stain_pilot/test/stain/197.jpg,test/stain,stain,stain/197.jpg,544111f5145a4bea91008c2fdec784825ff541c2faf7e60d5e288edf32cb69e7,1984,1488,L
+fabric_stain_pilot/test/stain/198.jpg,test/stain,stain,stain/198.jpg,21288b6cd18a15fc01f22b99875e1b24c9eed0c20540fd595ff68edcd565c25a,1984,1488,L
+fabric_stain_pilot/test/stain/199.jpg,test/stain,stain,stain/199.jpg,2b4548b75e7905136374391c7b935ea33c0bf0e953b9dc9790eafac55fa41ab5,1984,1488,L
+fabric_stain_pilot/test/stain/2.jpg,test/stain,stain,stain/2.jpg,c5866c5d2d7a5c74f02fe6f9964cc6f1df8bb2b1f9735e949f779ef095a29c8c,1984,1488,L
+fabric_stain_pilot/test/stain/20.jpg,test/stain,stain,stain/20.jpg,cbb7225f1ba6eaf73b7fc2165df52def08e04747eec169abeadc2ce6ac2fb105,1984,1488,L
+fabric_stain_pilot/test/stain/200.jpg,test/stain,stain,stain/200.jpg,c70cde29084dac99f61d770d4c443f9e08bb8606ca8eb1f8f5693d6a8513d090,1984,1488,L
+fabric_stain_pilot/test/stain/201.jpg,test/stain,stain,stain/201.jpg,f51b6b2a4ff1a5fc46318ddb4fa3d51969c473587dfd34c1657118f3ee4477c4,1984,1488,L
+fabric_stain_pilot/test/stain/202.jpg,test/stain,stain,stain/202.jpg,81ed5b8030663de7d0d0f77ef63ec198a9a20ffd00b266b08bab695401660a6a,1984,1488,L
+fabric_stain_pilot/test/stain/203.jpg,test/stain,stain,stain/203.jpg,27f7a2c17607aebbc148dbd83f858be2feacef11ed2de33e8b08193379c9b35c,1984,1488,L
+fabric_stain_pilot/test/stain/204.jpg,test/stain,stain,stain/204.jpg,e67310a85783a9ce45664877b541cdde356ca15b924f324e7f7661cf1e21cbc7,1984,1488,L
+fabric_stain_pilot/test/stain/205.jpg,test/stain,stain,stain/205.jpg,d1c738a30976c44fbcbd9b4efe383ed4cd209f4f7bdad7a182469559f3e4706a,1984,1488,L
+fabric_stain_pilot/test/stain/206.jpg,test/stain,stain,stain/206.jpg,dea61eb037700519d5cd967484e27a91ac03ec7235fb0a5b7c9e74b1b72e08ea,1984,1488,L
+fabric_stain_pilot/test/stain/207.jpg,test/stain,stain,stain/207.jpg,194da58584c444b764e990eb18eee5d30ebb848a12492f8daf87a6cc241949dc,1984,1488,L
+fabric_stain_pilot/test/stain/208.jpg,test/stain,stain,stain/208.jpg,e9f548c80a16b55cfa4b812f9041ed71bdbef3a05d346e56cf047639cce4f4b1,1984,1488,L
+fabric_stain_pilot/test/stain/209.jpg,test/stain,stain,stain/209.jpg,5c941fb5d67c0aac3ba2b1fbe36c0027b028691f1669de402042ac4e75e8dd6d,1984,1488,L
+fabric_stain_pilot/test/stain/21.jpg,test/stain,stain,stain/21.jpg,fa83f577105ec9b3bd883042b114a7bc5a5910676e29738434d7b532ef5a510b,1984,1488,L
+fabric_stain_pilot/test/stain/210.jpg,test/stain,stain,stain/210.jpg,d903179e08ecccbc19b4d32e0cb9f03a45a14945205f18b2bb80f377c0bb5188,1984,1488,L
+fabric_stain_pilot/test/stain/211.jpg,test/stain,stain,stain/211.jpg,50e217344d67d93a6bc352ea6a15c05c502572c2fcb00ff9d2132a1fd45e8f59,1984,1488,L
+fabric_stain_pilot/test/stain/212.jpg,test/stain,stain,stain/212.jpg,e083d4e62b72badb4c9c9a998609b42ff390622e9a5685410c3751ead0f72536,1488,1984,L
+fabric_stain_pilot/test/stain/213.jpg,test/stain,stain,stain/213.jpg,f2c9756d652613fa7f7d8eea3566093abb4177cb2a6f9bcd50e7ac1b32d6e088,1488,1984,L
+fabric_stain_pilot/test/stain/214.jpg,test/stain,stain,stain/214.jpg,7f10262ec376b7f63d6734e304995feeea1863d83a50e9f01f6f1cf54311afe8,1984,1488,L
+fabric_stain_pilot/test/stain/215.jpg,test/stain,stain,stain/215.jpg,4bca08396c8680155d28c871ac80ec17a74dd190515cc33c927e511c81794a05,1984,1488,L
+fabric_stain_pilot/test/stain/216.jpg,test/stain,stain,stain/216.jpg,b2e15643239f502ca8bf5ec7201982173073331f01cd2fb5335f6e6c49df9471,1984,1488,L
+fabric_stain_pilot/test/stain/217.jpg,test/stain,stain,stain/217.jpg,1023e846a6043cd6d252a14374611ae1a12fec2c8ea1f7364462e6dacdd2bb08,1488,1984,L
+fabric_stain_pilot/test/stain/218.jpg,test/stain,stain,stain/218.jpg,ec4113e1cd39c10a3758c57d5befe3d1d90a40398cc3a4fce3986a6c245d00ac,1984,1488,L
+fabric_stain_pilot/test/stain/219.jpg,test/stain,stain,stain/219.jpg,c51887abb351ac95119dbdb2a7f4ce69c23023d245b36650981b9639340a04e3,1984,1488,L
+fabric_stain_pilot/test/stain/22.jpg,test/stain,stain,stain/22.jpg,bbf92d027ba8c7ad0fa42ba1a4d662a9d6c99ac47a98c81ddfec5c4edcb88bd5,1984,1488,L
+fabric_stain_pilot/test/stain/220.jpg,test/stain,stain,stain/220.jpg,011a1319f5dcbf1e4a39ceb04a652fb90bc6ea7d2b5af35c7741d14ae29dd98b,1984,1488,L
+fabric_stain_pilot/test/stain/221.jpg,test/stain,stain,stain/221.jpg,c1415cf9f602d542a53b85b3cfcc4ba8305bde2610f3657bf71faf4860e5dcfc,1488,1984,L
+fabric_stain_pilot/test/stain/222.jpg,test/stain,stain,stain/222.jpg,9bd862f916a5097eb2c44327fe4c53374c85384fa9f4bb2d04e72be9de7d4baa,1488,1984,L
+fabric_stain_pilot/test/stain/223.jpg,test/stain,stain,stain/223.jpg,aa96fcaca722c74f7e9bb5901713307cdb9a7fee66f0cc1d2ea3b28773b226c9,1488,1984,L
+fabric_stain_pilot/test/stain/224.jpg,test/stain,stain,stain/224.jpg,9ffc04fb7e5c2084033cdb23c390fdd00c112b0bc9c86575a4d47a110c0c71c1,1488,1984,L
+fabric_stain_pilot/test/stain/225.jpg,test/stain,stain,stain/225.jpg,f7ad7ecadc50fa9f5b96493e52ecdc1bf3d67a0f888e68df16a4c789f625c308,1488,1984,L
+fabric_stain_pilot/test/stain/226.jpg,test/stain,stain,stain/226.jpg,c1b934011b86cb087e2373098988dace41e1e08cf4252440c42e2ad090d30a73,1488,1984,L
+fabric_stain_pilot/test/stain/227.jpg,test/stain,stain,stain/227.jpg,e809a2c164aedd3b6823c790503642a014c40dcaab47a9cc335cb7b088fb999a,1984,1488,L
+fabric_stain_pilot/test/stain/228.jpg,test/stain,stain,stain/228.jpg,e6b184d6551f6c808d67f4ff91c6726c65e854d5e4f9c4db6891fa80f5b8d4dc,1984,1488,L
+fabric_stain_pilot/test/stain/229.jpg,test/stain,stain,stain/229.jpg,98ee6e9548f1a76aafe70ac26342059f98ad7e7af2e5a3cfc6d04d183f96753e,1488,1984,L
+fabric_stain_pilot/test/stain/23.jpg,test/stain,stain,stain/23.jpg,6d8c42603202550955fd2e90a676d94cf27200575aac682b832cdece9a52476c,1984,1488,L
+fabric_stain_pilot/test/stain/230.jpg,test/stain,stain,stain/230.jpg,a2f8cc724e40d87d5ec51ad66111ae4fe149eb229f810a2bcf909e5769355862,1488,1984,L
+fabric_stain_pilot/test/stain/231.jpg,test/stain,stain,stain/231.jpg,981dcef69e6927799d07c8c7bb7406441438474e2847186c085058ea4362420f,1488,1984,L
+fabric_stain_pilot/test/stain/232.jpg,test/stain,stain,stain/232.jpg,402acb052fdb216463b1f38523fcd8923156f6d2b7e01a56ad634a57f7192ed4,1488,1984,L
+fabric_stain_pilot/test/stain/233.jpg,test/stain,stain,stain/233.jpg,9e33db40bdcac743c0ae4701d218a9902fc580fae69ca6cebc2c66385fbc7d3f,1488,1984,L
+fabric_stain_pilot/test/stain/234.jpg,test/stain,stain,stain/234.jpg,29434f39b3c3f781ad3f6c6ce576a342d5ce952ba89a36dc658d4366053ac6cc,1488,1984,L
+fabric_stain_pilot/test/stain/235.jpg,test/stain,stain,stain/235.jpg,556fc0cd8ebacfb7a26e8c7c53b58cd791c542bb66882025563e9942a931ab4f,1488,1984,L
+fabric_stain_pilot/test/stain/236.jpg,test/stain,stain,stain/236.jpg,14a601a3847b66e3c30945db3f09c797171010323fe30d2aee85017283cebf57,1488,1984,L
+fabric_stain_pilot/test/stain/237.jpg,test/stain,stain,stain/237.jpg,a50df26f7f52f13a114e759bb65cd94bac2ae801cab6dd229b690f63ad8257b8,1984,1488,L
+fabric_stain_pilot/test/stain/238.jpg,test/stain,stain,stain/238.jpg,0357d76b9cb7717d5cb0e3d2ca037bfeb22bbde794126501a8fd2aaf2f090b60,1984,1488,L
+fabric_stain_pilot/test/stain/239.jpg,test/stain,stain,stain/239.jpg,57c83f25c83c8737a49ca6bf00def787079c90b28e53a2f73b16f15e223c94c2,1984,1488,L
+fabric_stain_pilot/test/stain/24.jpg,test/stain,stain,stain/24.jpg,6c6bad169e55dcea12ae30c48d5a27092c16b1ea9429edc5f1b475f87d12cae0,1984,1488,L
+fabric_stain_pilot/test/stain/240.jpg,test/stain,stain,stain/240.jpg,7cd7939dd201988fedcd78feb3d19d7542bc6cc9c46041a271c2100592e837b9,1984,1488,L
+fabric_stain_pilot/test/stain/241.jpg,test/stain,stain,stain/241.jpg,12792ff2ae4a0334bb0a5d48c8aa70580fbd9ba7383f191a3f5a9412d150f9bf,1984,1488,L
+fabric_stain_pilot/test/stain/242.jpg,test/stain,stain,stain/242.jpg,ecab78d67a868bef8abd29feda4752294400e6217f353e793123934568cc87e2,1984,1488,L
+fabric_stain_pilot/test/stain/243.jpg,test/stain,stain,stain/243.jpg,12bb9807ca3dbff7f1220eef4558a4a84ab73d3339d7d87c35c58b463d24a343,1984,1488,L
+fabric_stain_pilot/test/stain/244.jpg,test/stain,stain,stain/244.jpg,07f26512e373166399fd47c16ef78c53413731502c988de4012b977efe67b7cd,1984,1488,L
+fabric_stain_pilot/test/stain/245.jpg,test/stain,stain,stain/245.jpg,869c0477993f4494f52ceacfaebe19ce65ac62b647efed9fb58b22b0f1294d99,1984,1488,L
+fabric_stain_pilot/test/stain/246.jpg,test/stain,stain,stain/246.jpg,63729413a1e76ab4725cb1bc9a85f4b59d701ca360ec110ee9551c566519235b,1984,1488,L
+fabric_stain_pilot/test/stain/247.jpg,test/stain,stain,stain/247.jpg,526c77d00d6cbfffd807db05d59e3ebc3cd241fc70dbae95af9f5f7790bc436f,1984,1488,L
+fabric_stain_pilot/test/stain/248.jpg,test/stain,stain,stain/248.jpg,14abf4b46381e25ce633e46d2c5cc84db17318a136fec7f2ce3a7fa6f763c39c,1984,1488,L
+fabric_stain_pilot/test/stain/249.jpg,test/stain,stain,stain/249.jpg,e9a1a089c0ee742470f07ac3db775e9e59524517de4e929306687a501d5f5268,1984,1488,L
+fabric_stain_pilot/test/stain/25.jpg,test/stain,stain,stain/25.jpg,0b70314eab695d1a237afe07dfb3dc0aa12120d0cfce1fc2ef68b8b7690efa04,1984,1488,L
+fabric_stain_pilot/test/stain/250.jpg,test/stain,stain,stain/250.jpg,013fbc8e583e7395ba2d52aa7ae9d253d7a8ec75f1619ca4bd52bfaf24ebbb2b,1984,1488,L
+fabric_stain_pilot/test/stain/251.jpg,test/stain,stain,stain/251.jpg,d42255628f4c4ea2ed7a682a7e3cc6bbbc1dfa549556ac92e73145950c591809,1984,1488,L
+fabric_stain_pilot/test/stain/252.jpg,test/stain,stain,stain/252.jpg,9947d0f9af51c198b12eb8453f5dd6d5252949db1f6cb34e0338640877117779,1984,1488,L
+fabric_stain_pilot/test/stain/253.jpg,test/stain,stain,stain/253.jpg,8ac0c96b18daf9e2610116deece1009232f0e4767238bfefabf5bf43d01a1b9f,1984,1488,L
+fabric_stain_pilot/test/stain/254.jpg,test/stain,stain,stain/254.jpg,059a75a938ff474119a677b0a0b8e14f039bd5f69470ca884528f6826ae2f48f,1984,1488,L
+fabric_stain_pilot/test/stain/255.jpg,test/stain,stain,stain/255.jpg,d274408b03a122d50704c1682ce6275e9cdc0a4d264b4b9d06d57692dd4ec9ba,1984,1488,L
+fabric_stain_pilot/test/stain/256.jpg,test/stain,stain,stain/256.jpg,b7e5165ab0d9dddb08c7204212b4099f63f456989a5a66ebd23d5ef0acfe5b85,1984,1488,L
+fabric_stain_pilot/test/stain/257.jpg,test/stain,stain,stain/257.jpg,04d0da359d32b9ef911094489ab6ed77a0b7eb74cab0b05b550cad5a18a6eae0,1984,1488,L
+fabric_stain_pilot/test/stain/258.jpg,test/stain,stain,stain/258.jpg,be97481a1de215a7566feaaa9b73fc22259adca50b72258c0c938cfbd12e87d4,1984,1488,L
+fabric_stain_pilot/test/stain/259.jpg,test/stain,stain,stain/259.jpg,0da0b6159ad1c31e12cea2d58aa499deef75f75a8cb9cc66c152f8e478a9736e,1984,1488,L
+fabric_stain_pilot/test/stain/26.jpg,test/stain,stain,stain/26.jpg,d6a461664bb6ed89d18925aa616f08fdf00e2b52892c78bbaf1beee2c447af23,1984,1488,L
+fabric_stain_pilot/test/stain/260.jpg,test/stain,stain,stain/260.jpg,71c9a81b34b11cbef0656b789d1344a3d79b201eac58604158e6d839fdbbaab6,1984,1488,L
+fabric_stain_pilot/test/stain/261.jpg,test/stain,stain,stain/261.jpg,f8ab16c4bd8919561c7d9e0455c3b4cb82d62e4bb95ea50de04cd85f91999009,1984,1488,L
+fabric_stain_pilot/test/stain/262.jpg,test/stain,stain,stain/262.jpg,12555e966ff525af1144cfb0fd2e5e6102c3700ac2df851c842c34ea51cac794,1984,1488,L
+fabric_stain_pilot/test/stain/263.jpg,test/stain,stain,stain/263.jpg,62e4f4e4765671f03559c823a329075d99350b4317024ac31f0d04274bbdb449,1984,1488,L
+fabric_stain_pilot/test/stain/264.jpg,test/stain,stain,stain/264.jpg,0ef43abbf2c97bc18958642b55b7a70e043ae8cfbf875526ccf6c8a87606908c,1984,1488,L
+fabric_stain_pilot/test/stain/265.jpg,test/stain,stain,stain/265.jpg,6ab4ec212e2221dade740af7defee7e5efe954310b465d1d5f08329da7c82795,1984,1488,L
+fabric_stain_pilot/test/stain/266.jpg,test/stain,stain,stain/266.jpg,1b8c573534f213dfc47dbe3a9e1f8b9d8406a2f930240d8c274d1e66fb75844b,1984,1488,L
+fabric_stain_pilot/test/stain/267.jpg,test/stain,stain,stain/267.jpg,905f0eeaf2885bad819a347619b6b83b5644ef72c5f91e86254f4adac49515db,1984,1488,L
+fabric_stain_pilot/test/stain/268.jpg,test/stain,stain,stain/268.jpg,083dc15b11c446076c037d3724876e09cbb04237c7670fd36156c53dea99f15b,1984,1488,L
+fabric_stain_pilot/test/stain/269.jpg,test/stain,stain,stain/269.jpg,211580e4b51a2ef73a3db79c323151972f7037bffbedf82d8b8f1db9cf273fe9,1984,1488,L
+fabric_stain_pilot/test/stain/27.jpg,test/stain,stain,stain/27.jpg,7ca9a64f9f5c38188fb174b450883d5aa1934e8ebc7fc4f982ec32735872755c,1984,1488,L
+fabric_stain_pilot/test/stain/270.jpg,test/stain,stain,stain/270.jpg,1d032fa80dec1e1886c67e87f13fbd13ce6de038f3c33a34a12ed4afb7794a6e,1984,1488,L
+fabric_stain_pilot/test/stain/271.jpg,test/stain,stain,stain/271.jpg,ad0169cf0ae6fec9991b47b536b27cfff76543bb8dcf50551c7376ff614de91d,1984,1488,L
+fabric_stain_pilot/test/stain/272.jpg,test/stain,stain,stain/272.jpg,a36dac64481819a52b64bf5ce2a8ea668030383869ad89eebaa19fdb80ccddf1,1984,1488,L
+fabric_stain_pilot/test/stain/273.jpg,test/stain,stain,stain/273.jpg,715ea6f7f1155eeb676a9ec811ded4b5cb76e1596237e6ffc448586577353f90,1984,1488,L
+fabric_stain_pilot/test/stain/274.jpg,test/stain,stain,stain/274.jpg,7ddeb2ddb9bcba89d548f174eb407d61370f7e26ed312dc8f1e4d7e5651fc92a,1984,1488,L
+fabric_stain_pilot/test/stain/275.jpg,test/stain,stain,stain/275.jpg,dc3d0a04b58dd0fdbf3f446986a87fdee2056b577291e3355f9948acfe803e8a,1984,1488,L
+fabric_stain_pilot/test/stain/276.jpg,test/stain,stain,stain/276.jpg,81043eecbb7a4d0a6bd887f78ad76f7a72cc60596646dbb47fe65376546421dc,1984,1488,L
+fabric_stain_pilot/test/stain/277.jpg,test/stain,stain,stain/277.jpg,1710135f259d6dcc60d8f2f4bf5942c666d47bd725ca12a13ae2afa1028598b5,1984,1488,L
+fabric_stain_pilot/test/stain/278.jpg,test/stain,stain,stain/278.jpg,672fd159cd0baf6dba13208c7d0fe2b966f64e8a25d8ca4e1d523f587c96583f,1984,1488,L
+fabric_stain_pilot/test/stain/279.jpg,test/stain,stain,stain/279.jpg,d5c974d0ca61e5bfb21792eb43ac55edc803547a82d534237f5586e74038ae4e,1984,1488,L
+fabric_stain_pilot/test/stain/28.jpg,test/stain,stain,stain/28.jpg,939f55a41e339c0123abe02fd6b7bda88089906ffbe792f7e262c271326056d0,1984,1488,L
+fabric_stain_pilot/test/stain/280.jpg,test/stain,stain,stain/280.jpg,5a48c6e2d9183142d10c815fb9d9c6cd0910ec10a67f7f0810f05e26b7ba8ac3,1984,1488,L
+fabric_stain_pilot/test/stain/281.jpg,test/stain,stain,stain/281.jpg,5a1f05cf25165f4fb926424efb4ca8c2dc569bd3126df28a69a64492fa8caba3,1984,1488,L
+fabric_stain_pilot/test/stain/282.jpg,test/stain,stain,stain/282.jpg,a087100e4be38907b40c1423849860185ee62c9d0e75d4c0af5f66c8cfe0a27e,1984,1488,L
+fabric_stain_pilot/test/stain/283.jpg,test/stain,stain,stain/283.jpg,4d59fa7e05d6e851dfc223fa15f6c494eca7b4af8cd98f9629612cec6a8712e1,1984,1488,L
+fabric_stain_pilot/test/stain/284.jpg,test/stain,stain,stain/284.jpg,375302c9e7a995b3a0ecd93c34708216593aaa724e3261a022343facbe2f7628,1984,1488,L
+fabric_stain_pilot/test/stain/285.jpg,test/stain,stain,stain/285.jpg,10d0d68ce3a9bf70db514bcc4af45d7fb2e08b45c726cc9d2cdcfc8b0da0e4c9,1984,1488,L
+fabric_stain_pilot/test/stain/286.jpg,test/stain,stain,stain/286.jpg,91cc734b7a980ec8d6447093556e0adcb993cff28774a4cdb7351362ca02f393,1984,1488,L
+fabric_stain_pilot/test/stain/287.jpg,test/stain,stain,stain/287.jpg,d228d76977a13eb86a56f9b9ff9dd8817b4685bbba0d69a18c622d9ac7b2b7ed,1984,1488,L
+fabric_stain_pilot/test/stain/288.jpg,test/stain,stain,stain/288.jpg,50a85bb35f6d7d02eb7b1442f99dcb13f0fba9379cf1528fd210947d19ddc5dd,1984,1488,L
+fabric_stain_pilot/test/stain/289.jpg,test/stain,stain,stain/289.jpg,9e8b64647aba6387c78d918c4f374dfbb21b0da14d43cdcf4dfdec5b2457d0bf,1984,1488,L
+fabric_stain_pilot/test/stain/29.jpg,test/stain,stain,stain/29.jpg,ae553bf4c6eb92847727aec3f446450a54555f2278e8087b98ac10fe7a08e06c,1984,1488,L
+fabric_stain_pilot/test/stain/290.jpg,test/stain,stain,stain/290.jpg,4e5edb339b2863382f602f2bf0ac4af2a2ded9329433c08f3609ba1ed723f440,1984,1488,L
+fabric_stain_pilot/test/stain/291.jpg,test/stain,stain,stain/291.jpg,017fd48da29b79c285841a143bdd322caade115d07c622896e616adeece0954f,1984,1488,L
+fabric_stain_pilot/test/stain/292.jpg,test/stain,stain,stain/292.jpg,51841c6809b5216bcb91919498ee5ca0387c03ac3dc727eb37ff8a3eced5173c,1984,1488,L
+fabric_stain_pilot/test/stain/293.jpg,test/stain,stain,stain/293.jpg,59b3bfceef2551c0ba4645bbff88493d682d970598be701c28da807ffca133df,1488,1984,L
+fabric_stain_pilot/test/stain/294.jpg,test/stain,stain,stain/294.jpg,c3b3387e8e64a044f074caa066a0f67e030602069b868d8787fd892e4df19cab,1488,1984,L
+fabric_stain_pilot/test/stain/295.jpg,test/stain,stain,stain/295.jpg,81029782e4662d9a9d26bbe963e5e2a81ac9a13755f1478d7f54ca2d06967d89,1488,1984,L
+fabric_stain_pilot/test/stain/296.jpg,test/stain,stain,stain/296.jpg,7bea1329a694b3ee478d14c8fd45186af4a74049b51f29a31bcc3009aedfd3f4,1488,1984,L
+fabric_stain_pilot/test/stain/297.jpg,test/stain,stain,stain/297.jpg,8065f0cbdc2ade5b709fb953d7c0e5461d83d75ef1e7ce93f47083c461129ecb,1488,1984,L
+fabric_stain_pilot/test/stain/298.jpg,test/stain,stain,stain/298.jpg,dbdb936ae26f707b9b3d2c6d04602782c3f3111f2f2951472c7a6493a303c715,1488,1984,L
+fabric_stain_pilot/test/stain/299.jpg,test/stain,stain,stain/299.jpg,f5d04eaf815bf45fd68b42654694ade3bd69ed1a2f3a57ee927d1a80c1395640,1488,1984,L
+fabric_stain_pilot/test/stain/3.jpg,test/stain,stain,stain/3.jpg,db789bb0ad632a9112627700c6801835250661988955ab38699e3fd7dcc7b6c4,1984,1488,L
+fabric_stain_pilot/test/stain/30.jpg,test/stain,stain,stain/30.jpg,5418164b823d7b5fe566b82c89cae69ada951d9a40e8d4e547e503093682143e,1984,1488,L
+fabric_stain_pilot/test/stain/300.jpg,test/stain,stain,stain/300.jpg,f7e7801b2e17e8acb5bcc634f508c8af9f80c41d23284789681120f5bec248fd,1488,1984,L
+fabric_stain_pilot/test/stain/301.jpg,test/stain,stain,stain/301.jpg,4134dc772eba0dbce91aa983b8a1e4e7808a7eefd4409d21d5d4291b85d2cbd4,1488,1984,L
+fabric_stain_pilot/test/stain/302.jpg,test/stain,stain,stain/302.jpg,4c9c901672587ab67f7af53e5d1b2d8261f3ff2a198e5a979337c184ba686112,1488,1984,L
+fabric_stain_pilot/test/stain/303.jpg,test/stain,stain,stain/303.jpg,aad8de0dee8e4730456d362a81953db3bc6950fdc2717e578a513ee19cbca41e,1488,1984,L
+fabric_stain_pilot/test/stain/304.jpg,test/stain,stain,stain/304.jpg,66f3b111da3c46bc199e35ecf52a48f3adc78e12022df83fa3422471e361cc41,1488,1984,L
+fabric_stain_pilot/test/stain/305.jpg,test/stain,stain,stain/305.jpg,ea9d8f74bc39b657a4deb60ca48849a0b9a53ed1987d95de689610d8fd58164c,1488,1984,L
+fabric_stain_pilot/test/stain/306.jpg,test/stain,stain,stain/306.jpg,2233afe86ba59b80184367394cdf6bf9d4380d9b6b63d3133544266b424362f0,1488,1984,L
+fabric_stain_pilot/test/stain/307.jpg,test/stain,stain,stain/307.jpg,b7f9e435f95c0a7d4db13900c984e65edf128bd062071dfa83353fe353b1af75,1488,1984,L
+fabric_stain_pilot/test/stain/308.jpg,test/stain,stain,stain/308.jpg,3fe7ea81a7079a757838830b801b3219cecff9c9412cbdef55e57238557493c0,1488,1984,L
+fabric_stain_pilot/test/stain/309.jpg,test/stain,stain,stain/309.jpg,c7a3e626cbbfb0028a2a50516109f3e9963475d6b05846803b669b87014c1066,1488,1984,L
+fabric_stain_pilot/test/stain/31.jpg,test/stain,stain,stain/31.jpg,dbbb6ffe01211da77004fcf0fe63a7e211f2eb505ecf3251eab47e11f27783d3,1488,1984,L
+fabric_stain_pilot/test/stain/310.jpg,test/stain,stain,stain/310.jpg,95a22462d2d7caa9fd2601293fb70acc6d949ed502752bfe006e266b82b17b4a,1488,1984,L
+fabric_stain_pilot/test/stain/311.jpg,test/stain,stain,stain/311.jpg,f981d38f8dc4dbf7e3b2fbc22d27d9a1bae49f2a6fa11f1398a91239ce1e9b30,1984,1488,L
+fabric_stain_pilot/test/stain/312.jpg,test/stain,stain,stain/312.jpg,c4a3ca73dedd2774bd3f0fa7f0e16c95e0b61e7805c99474200a5e8ae9f6385e,1984,1488,L
+fabric_stain_pilot/test/stain/313.jpg,test/stain,stain,stain/313.jpg,edb78bf38f63160b95798e35ec59cd7b4a7fa70e4540bd51e51ae1cd258e4b50,1984,1488,L
+fabric_stain_pilot/test/stain/314.jpg,test/stain,stain,stain/314.jpg,2f8dabcb36d1319c028b91346d0867bebc66bbf2479c0b02f2ae6ea18d27bc45,1984,1488,L
+fabric_stain_pilot/test/stain/315.jpg,test/stain,stain,stain/315.jpg,a3b68c104917cf60424eaa380c2c8014f36ee7bd1704b0c11d0d4feb7b194e32,1984,1488,L
+fabric_stain_pilot/test/stain/316.jpg,test/stain,stain,stain/316.jpg,3532dd1362b0f4b395a5f34504e804a9a8f307077e26344b72e748f1de693309,1984,1488,L
+fabric_stain_pilot/test/stain/317.jpg,test/stain,stain,stain/317.jpg,e28a4a020882f180a0235a7e35f429ea1f89f58c7ac38a3f82b1106ef1afc250,1984,1488,L
+fabric_stain_pilot/test/stain/318.jpg,test/stain,stain,stain/318.jpg,f611a62142efaa7864a70f0073db3b38580d9f1eb06f0200fc8b1c79ca1b2dfe,1984,1488,L
+fabric_stain_pilot/test/stain/319.jpg,test/stain,stain,stain/319.jpg,731edf031b31cd90da54d82dd965614281110f7c53a528223dfaa6b8bc74a8e8,1984,1488,L
+fabric_stain_pilot/test/stain/32.jpg,test/stain,stain,stain/32.jpg,5d789dc941121b202a5a4e3d23f0ec2134cff7c98eb6fff1c14a8a593202a8ad,1488,1984,L
+fabric_stain_pilot/test/stain/320.jpg,test/stain,stain,stain/320.jpg,f1a531aa688ef0a4741ef20845a1aade0d312eb5417442d768389de9fdd09c32,1984,1488,L
+fabric_stain_pilot/test/stain/321.jpg,test/stain,stain,stain/321.jpg,f14ca2ed847ee8ebf151b46ac94e51b7f5192b733fcc124e25b70c2951228114,1984,1488,L
+fabric_stain_pilot/test/stain/322.jpg,test/stain,stain,stain/322.jpg,2c3fa83c5b84d583571ada00df1727077532cc35b1ffa9043768f17c235f6d0a,1984,1488,L
+fabric_stain_pilot/test/stain/323.jpg,test/stain,stain,stain/323.jpg,76adbce669df504718a5b26ab5b29714a37026645582ce754a1c8070a4f5f544,1984,1488,L
+fabric_stain_pilot/test/stain/324.jpg,test/stain,stain,stain/324.jpg,9181148cf545869d06af9d3bdd7cbaf3dfd91129ecf698f48a3b14cc6c4319d1,1984,1488,L
+fabric_stain_pilot/test/stain/325.jpg,test/stain,stain,stain/325.jpg,adc444add0a95129697a444456fdb2136c6fde8e6aaad1749f6647ffa4832f08,1984,1488,L
+fabric_stain_pilot/test/stain/326.jpg,test/stain,stain,stain/326.jpg,0ab0102ea4e00c5278bd76cda565a0e5452cdf07ccd6d56073f82d75ecc97f87,1984,1488,L
+fabric_stain_pilot/test/stain/327.jpg,test/stain,stain,stain/327.jpg,6bf343445d10478b79265b1cc793ee1b02f5eae1fbeb9a04eb772aaf1b49cc20,1984,1488,L
+fabric_stain_pilot/test/stain/328.jpg,test/stain,stain,stain/328.jpg,69aa4eec27580a9bc91e341799b1a8c5e0fba32f29d439eb3725222e547c69c6,1984,1488,L
+fabric_stain_pilot/test/stain/329.jpg,test/stain,stain,stain/329.jpg,92f36520e30298e802611341156736de5d197367861b309cd5727346e27d6b04,1984,1488,L
+fabric_stain_pilot/test/stain/33.jpg,test/stain,stain,stain/33.jpg,d23eb80c225df0d43f5a819b1efccdb7f65b23bd540165a2ad9dc494f7ab0b8c,1488,1984,L
+fabric_stain_pilot/test/stain/330.jpg,test/stain,stain,stain/330.jpg,6b687f2fb476f2012dd775c6c2047087b5564aaddff5cc55658b4c75a986d05e,1984,1488,L
+fabric_stain_pilot/test/stain/331.jpg,test/stain,stain,stain/331.jpg,9b2e5b963a1087efe72937c0b805f54cef2e1eb0723f0b3b7f6d519e64ad0de9,1984,1488,L
+fabric_stain_pilot/test/stain/332.jpg,test/stain,stain,stain/332.jpg,ddbf72c94cb0859bce095b5b9fb4737faa81b5413dbb76646b0a47d8f485ce9c,1984,1488,L
+fabric_stain_pilot/test/stain/333.jpg,test/stain,stain,stain/333.jpg,66d04c8e3758ae263a403823bc166e567cfa0b2d44cda9dc4063d5ea89973d6c,1984,1488,L
+fabric_stain_pilot/test/stain/334.jpg,test/stain,stain,stain/334.jpg,9a3147d244b52e9d9ed835237e6e394f8c30351ebcb50cf61dd43c1808fb7654,1984,1488,L
+fabric_stain_pilot/test/stain/335.jpg,test/stain,stain,stain/335.jpg,a04b3a27fc9d89c0709c03f84ba208558c0c6e614e8625775dd0dff4d887be01,1488,1984,L
+fabric_stain_pilot/test/stain/336.jpg,test/stain,stain,stain/336.jpg,ccf9902d376f4dc1310794bad70ddb243a9b74d8ec264ae1fa5e04a008d5dc67,1984,1488,L
+fabric_stain_pilot/test/stain/337.jpg,test/stain,stain,stain/337.jpg,79e8327fb6462915ad449f282bc9413f81cdd34da51a8f9b4c803a464158d78a,1984,1488,L
+fabric_stain_pilot/test/stain/338.jpg,test/stain,stain,stain/338.jpg,e082c228cbe8ea4c5af97b96e9557e7f4d2eeadd20bb67e89a0eee5b1c138540,1984,1488,L
+fabric_stain_pilot/test/stain/339.jpg,test/stain,stain,stain/339.jpg,a4c641c3537fdd34e0ee004f40363eb3e7577775f7115031d72292c49ee2e219,1984,1488,L
+fabric_stain_pilot/test/stain/34.jpg,test/stain,stain,stain/34.jpg,bc6a1b51aba57e7126c3ad341117faba7b071b08ac02c0e775469d2f170a68cd,1488,1984,L
+fabric_stain_pilot/test/stain/340.jpg,test/stain,stain,stain/340.jpg,f1416753b6cacc4a9eb6b0e3d5977c85a23ecf867bf3115d881711ccb91803a2,1984,1488,L
+fabric_stain_pilot/test/stain/341.jpg,test/stain,stain,stain/341.jpg,0ae75ecae34db1f1859cebf1a0d43f19c3a35acfd06e31c72b0d4e342fb32824,1984,1488,L
+fabric_stain_pilot/test/stain/342.jpg,test/stain,stain,stain/342.jpg,2a0ccc3f1ec05be5bdb5d295bbaa32d4ec9b81c3b99dd6acd011a86e15d66d36,1984,1488,L
+fabric_stain_pilot/test/stain/343.jpg,test/stain,stain,stain/343.jpg,15ab9dddc89fcbb6326402b1e12c9d9400289e3096efac2d645814b5c266be92,1984,1488,L
+fabric_stain_pilot/test/stain/344.jpg,test/stain,stain,stain/344.jpg,56588a0d333f3e6719ab131fdf71c44fdf7ec3de7a9097366aa93a9e2c1afca3,1984,1488,L
+fabric_stain_pilot/test/stain/345.jpg,test/stain,stain,stain/345.jpg,f2aee2bfb64ccca7479ce2c5b08cdfec967163b61867574acf01f08d322f2518,1984,1488,L
+fabric_stain_pilot/test/stain/346.jpg,test/stain,stain,stain/346.jpg,9d61fcbdb33e7f63a99f24304618a95653e697561433d0e946c325915206704c,1488,1984,L
+fabric_stain_pilot/test/stain/347.jpg,test/stain,stain,stain/347.jpg,a1f2eed139fc65d30e676161afea4185ae528ae2510002755d7a28b8159022dc,1488,1984,L
+fabric_stain_pilot/test/stain/348.jpg,test/stain,stain,stain/348.jpg,693caecd7795d1d74f6d07cb498580d1edc80339d97c02a3ed6a541e79e7c8fe,1488,1984,L
+fabric_stain_pilot/test/stain/349.jpg,test/stain,stain,stain/349.jpg,9fd0db6a9b2291cefd8e6995669350cabcef048e5d7d61f4fe54da62d75caec6,1488,1984,L
+fabric_stain_pilot/test/stain/35.jpg,test/stain,stain,stain/35.jpg,24bfaffbbe34341033a1ecdb5aa56c56ea56c0541de2ff8b9eb38eb5aed3e63e,1488,1984,L
+fabric_stain_pilot/test/stain/350.jpg,test/stain,stain,stain/350.jpg,3ab8ef092c39ce5f6664eaa9af3b65e7681d44269e9ff16d64079104279c3ce6,1984,1488,L
+fabric_stain_pilot/test/stain/351.jpg,test/stain,stain,stain/351.jpg,2224af54e0fca9c56211a6ccdd22a199220977ddefb5d60c55a268ebe152e007,1984,1488,L
+fabric_stain_pilot/test/stain/352.jpg,test/stain,stain,stain/352.jpg,2394682f84e84f1c015028b7022ad172116e1c88f4c406e6959af30d655195e7,1984,1488,L
+fabric_stain_pilot/test/stain/353.jpg,test/stain,stain,stain/353.jpg,776c025b519f73f1199f83a12ad2b99a10a26c411173abdb05b49e0ef320481d,1488,1984,L
+fabric_stain_pilot/test/stain/354.jpg,test/stain,stain,stain/354.jpg,7a2dad380ab086bae3bcde280b0c88b418f9f70c2db4a27becc2c2991d05215a,1488,1984,L
+fabric_stain_pilot/test/stain/355.jpg,test/stain,stain,stain/355.jpg,0d6ad7fd99b88053fdd38899f0b02757d6ae6450358a3d3fcc1f58ce1ecefc21,1488,1984,L
+fabric_stain_pilot/test/stain/356.jpg,test/stain,stain,stain/356.jpg,895d265d610c8d4584b9fd973470cb1c1f937c4adcaf830b7b6f6c28bce25fbd,1488,1984,L
+fabric_stain_pilot/test/stain/357.jpg,test/stain,stain,stain/357.jpg,49699746bc10208cf15c720b1dedb82819d4bcd586b15955ec8400af7b30a068,1488,1984,L
+fabric_stain_pilot/test/stain/358.jpg,test/stain,stain,stain/358.jpg,96ba7585ac81a203474e8e41ad26126ae8a1def57a65f31972a005788c6d4e0d,1984,1488,L
+fabric_stain_pilot/test/stain/359.jpg,test/stain,stain,stain/359.jpg,abddbaffbaade34c6673e0f6a9cdad23413371fca02e2f03572a7ceea3a0dd75,1984,1488,L
+fabric_stain_pilot/test/stain/36.jpg,test/stain,stain,stain/36.jpg,67f21521e8ac0a0b5ab4fd9beee2268a0a16cf767c529892b2f4961f16abe08e,1488,1984,L
+fabric_stain_pilot/test/stain/360.jpg,test/stain,stain,stain/360.jpg,4f4999f1c1368502ba7a8d6299db4f253f3297e3ea7a6c04fa3c641984ad54ef,1984,1488,L
+fabric_stain_pilot/test/stain/361.jpg,test/stain,stain,stain/361.jpg,6d93f89146dc587f07371d85380bd0eca4de0b793d2905cddb1c79c398122d85,1984,1488,L
+fabric_stain_pilot/test/stain/362.jpg,test/stain,stain,stain/362.jpg,36deb8e918951ae71ac0318ecd90b4d0bc2648266241ab40460211d49e6a3075,1488,1984,L
+fabric_stain_pilot/test/stain/363.jpg,test/stain,stain,stain/363.jpg,46b97444d972180edd79571a73ad68383f83d8dc91a7a97bc1eccfd13f8a4348,1488,1984,L
+fabric_stain_pilot/test/stain/364.jpg,test/stain,stain,stain/364.jpg,d5eb8ea38c7551b60d80caac434432c72f297f24522def2d07309a754fd3e3c1,1488,1984,L
+fabric_stain_pilot/test/stain/365.jpg,test/stain,stain,stain/365.jpg,882c81dbf54c878fbbbd2b181d0aff57cc80ef049ae1a1ebb3cd7eff5c195b80,1488,1984,L
+fabric_stain_pilot/test/stain/366.jpg,test/stain,stain,stain/366.jpg,62eddad025241b5daf64e93fb1eae5bea0a3b927fc11bd281b6212b9a77a75b9,1488,1984,L
+fabric_stain_pilot/test/stain/367.jpg,test/stain,stain,stain/367.jpg,9151bfc03fd20d1943f6a5fcfd4109bac8c433b5ae2126789a1dac32cd7d6363,1488,1984,L
+fabric_stain_pilot/test/stain/368.jpg,test/stain,stain,stain/368.jpg,73f75f53f83bca0f40d9db1e99eda49e3afe3649ee8d808ba021e3ea0d7294ac,1488,1984,L
+fabric_stain_pilot/test/stain/369.jpg,test/stain,stain,stain/369.jpg,2783dbf420c587a9d7bd83bb350fc3e32e1b6f9e9b6559dcc5b95c86f39c2574,1488,1984,L
+fabric_stain_pilot/test/stain/37.jpg,test/stain,stain,stain/37.jpg,806eb921875ba0b78d416933d8ed2d76c66697371f03a971786c2991af14ed0d,1488,1984,L
+fabric_stain_pilot/test/stain/370.jpg,test/stain,stain,stain/370.jpg,b2c8f0ad4f54f63a604c025b727cb375ffe59bc433cedbe530f0849454428ee6,1488,1984,L
+fabric_stain_pilot/test/stain/371.jpg,test/stain,stain,stain/371.jpg,312109cea66dc9598e784be4c9e16393cfda03963a6e1cf6b4bed005ffb33485,1488,1984,L
+fabric_stain_pilot/test/stain/372.jpg,test/stain,stain,stain/372.jpg,f6f8ea0b12d270437c17d205ae95824d0145b56436683ecc36c4ba0a41f51779,1488,1984,L
+fabric_stain_pilot/test/stain/373.jpg,test/stain,stain,stain/373.jpg,51ea3b2d2cd8da30c6656293caee0e45e02baf6588eaff82081ebad8acafd77f,1488,1984,L
+fabric_stain_pilot/test/stain/374.jpg,test/stain,stain,stain/374.jpg,75e36bb758e3c63c126db855b52e759319d384d3960dedabf6e150544b669638,1984,1488,L
+fabric_stain_pilot/test/stain/375.jpg,test/stain,stain,stain/375.jpg,b78b300ed0cf8c3ac3cccb8f93e0ddfb968ebca26141a0dc46fa0a8072f24fdf,1984,1488,L
+fabric_stain_pilot/test/stain/376.jpg,test/stain,stain,stain/376.jpg,8e579ff84da5303fa1a993944198c7812b814eb895ead7de4e819f7a822dc005,1984,1488,L
+fabric_stain_pilot/test/stain/377.jpg,test/stain,stain,stain/377.jpg,f282af52a8c23774b259d65443e235b6db1521664ac1b97235263a187dc7fd2f,1984,1488,L
+fabric_stain_pilot/test/stain/378.jpg,test/stain,stain,stain/378.jpg,613054891378c6d482815555e93451564351c25fcfd5676f6485ea97b6fea36e,1984,1488,L
+fabric_stain_pilot/test/stain/379.jpg,test/stain,stain,stain/379.jpg,e08468ae6303d4ebe47f41af8dd0139c76527d2d0e30dcb1eaa31fc68f0ea67f,1984,1488,L
+fabric_stain_pilot/test/stain/38.jpg,test/stain,stain,stain/38.jpg,1dbd7397812c70b25f28159c6930649715d2dfd7101353e197edf9089108fdea,1488,1984,L
+fabric_stain_pilot/test/stain/380.jpg,test/stain,stain,stain/380.jpg,9d024cf371c7f753d8a0c4647bda3c5e81894d22f62a97f6dd6004bbd17e1ee2,1984,1488,L
+fabric_stain_pilot/test/stain/381.jpg,test/stain,stain,stain/381.jpg,737cb67520ce1990d7127159103320499dd27c38afead702817093e68c3d4e67,1984,1488,L
+fabric_stain_pilot/test/stain/382.jpg,test/stain,stain,stain/382.jpg,71ed079f5722fedcb19c3e6d1f6e0b988c35edfd0eb63cb23e166864160afc8e,1984,1488,L
+fabric_stain_pilot/test/stain/383.jpg,test/stain,stain,stain/383.jpg,86acd965cb5a01845e9728156e5ac60ecda385b025fe3861b16f83917b9e9fed,1984,1488,L
+fabric_stain_pilot/test/stain/384.jpg,test/stain,stain,stain/384.jpg,f3b5f880c179adf5e2b433c12a043d42cb80767a5091756a28020937647bf85d,1984,1488,L
+fabric_stain_pilot/test/stain/385.jpg,test/stain,stain,stain/385.jpg,ec54c7fef7f1eaeea4cb9f832624814da5017f8f25ad1b8d3139dd826578defe,1984,1488,L
+fabric_stain_pilot/test/stain/386.jpg,test/stain,stain,stain/386.jpg,6ebdfed89f176e0c25c876efad5ea095744d4e06da47c2bae31eedc0b3711d1d,1984,1488,L
+fabric_stain_pilot/test/stain/387.jpg,test/stain,stain,stain/387.jpg,493897ae5f735816e7a5349bb03a7962ab864763f273e07c42fbc5babca83f4c,1984,1488,L
+fabric_stain_pilot/test/stain/388.jpg,test/stain,stain,stain/388.jpg,79ef174cd34bfd0344b269d9342ecff15868fbc54c99e7914465676a54698351,1984,1488,L
+fabric_stain_pilot/test/stain/389.jpg,test/stain,stain,stain/389.jpg,31d4fcbf1113a79f5cd64d053496550f34e4664b2fe587d3ad298bb48ffe22a1,1984,1488,L
+fabric_stain_pilot/test/stain/39.jpg,test/stain,stain,stain/39.jpg,a9e63b72b8ae2fd0054bbd5aa41ba004c77a92cf88913f10d5a692dcdddcf11b,1488,1984,L
+fabric_stain_pilot/test/stain/390.jpg,test/stain,stain,stain/390.jpg,a9a20ffe66f7e9c51f25add4ba310e858efeccf43d7a8e76484b825ca417b28b,1488,1984,L
+fabric_stain_pilot/test/stain/391.jpg,test/stain,stain,stain/391.jpg,99fdebc55926b29567c5fe9ad9de5a7a83918fce42f32fd0c88fe1f404d90330,1488,1984,L
+fabric_stain_pilot/test/stain/392.jpg,test/stain,stain,stain/392.jpg,c295a353a2376abb082eff06e105c999146c5393b19b2558e4ef50c8b04cd6df,1488,1984,L
+fabric_stain_pilot/test/stain/393.jpg,test/stain,stain,stain/393.jpg,a6fcd74cf2c1c3bdffa060399b214d2624dff31a13426f2f776b1845e7976181,1488,1984,L
+fabric_stain_pilot/test/stain/394.jpg,test/stain,stain,stain/394.jpg,a89d748870ecc9c26715627099b25a037ac20813a799f50bd26a8f7c3c3ea1b7,1488,1984,L
+fabric_stain_pilot/test/stain/395.jpg,test/stain,stain,stain/395.jpg,3d5fbf5ee10fc4a0240be1968234c8d3a297c94de70e53e7140a7b3a7c8e6a28,1984,1488,L
+fabric_stain_pilot/test/stain/396.jpg,test/stain,stain,stain/396.jpg,1892310561be7fb21dc0580241a39b42f7d5b444a0d292fcb6a79a5fb6021db5,1984,1488,L
+fabric_stain_pilot/test/stain/397.jpg,test/stain,stain,stain/397.jpg,d426e34793ae9b1cfcbc3351b61de9795c11bff02ee8142a9cb8d5777204dc57,1984,1488,L
+fabric_stain_pilot/test/stain/398.jpg,test/stain,stain,stain/398.jpg,6e92e046c233332662bc08e3006a8b17b70e403b801866bb58b8f94d484e6db8,1984,1488,L
+fabric_stain_pilot/test/stain/4.jpg,test/stain,stain,stain/4.jpg,7b7b78d37cc2b90b2cdf79a877aab20a7b9518d26b2cfae470024b872116369c,1984,1488,L
+fabric_stain_pilot/test/stain/40.jpg,test/stain,stain,stain/40.jpg,d67767b6a2e93325c397df87a6a1a82eba081b15d08f503c1638d8c35923f98e,1488,1984,L
+fabric_stain_pilot/test/stain/41.jpg,test/stain,stain,stain/41.jpg,904c64862893614ca0e0f9b1c2468fb249417867608b97d86400018dcb3d0132,1488,1984,L
+fabric_stain_pilot/test/stain/42.jpg,test/stain,stain,stain/42.jpg,78443f6d9613c9054d8f1524b5504430be46c7a8359f515c8377aedd64a64bb2,1488,1984,L
+fabric_stain_pilot/test/stain/43.jpg,test/stain,stain,stain/43.jpg,76844e9d6bb23a473a00ee6c56103f70f229e6f47c6d680e19bfde80f6af5bde,1488,1984,L
+fabric_stain_pilot/test/stain/44.jpg,test/stain,stain,stain/44.jpg,c5c09413f727022aeb4b59de57ba99727efb1d0b1f21d46d02029969bc36ecdf,1488,1984,L
+fabric_stain_pilot/test/stain/45.jpg,test/stain,stain,stain/45.jpg,652a3171ef607e9ad5a9f0eb025f07c7e7a8788c2acf3ffbccb37ab247cae919,1488,1984,L
+fabric_stain_pilot/test/stain/46.jpg,test/stain,stain,stain/46.jpg,acc1118605e5a4afb047c9f7e6cdac2725599f7f4c4cda04cb9812f76c1db5ac,1488,1984,L
+fabric_stain_pilot/test/stain/47.jpg,test/stain,stain,stain/47.jpg,64d719fec28df66144d37fc2e6ba365d78af82a8a16fc51d5a9193e6afe78724,1488,1984,L
+fabric_stain_pilot/test/stain/48.jpg,test/stain,stain,stain/48.jpg,6d98849a257403c4d72c6b0c934226b7c3b4d9725b08d7ad0fa04f0e7aaa5a4f,1488,1984,L
+fabric_stain_pilot/test/stain/49.jpg,test/stain,stain,stain/49.jpg,36c0bf18a195d09538829a75fc27c74ccbab29480fc6ddc481646348d6531875,1488,1984,L
+fabric_stain_pilot/test/stain/5.jpg,test/stain,stain,stain/5.jpg,0ce0a78c34aa36652916ac8ac62f2ef2a78425bf32d81a72a9e58595f593561c,1984,1488,L
+fabric_stain_pilot/test/stain/50.jpg,test/stain,stain,stain/50.jpg,abed340d3efd88cb7a02c6e77e9d829a9753556cbd7b0d6b0783ad013f2ac0e6,1488,1984,L
+fabric_stain_pilot/test/stain/51.jpg,test/stain,stain,stain/51.jpg,24580093cebf5d042d2b39bceaaa668104dffabd9d9a9cda43942e46d9d64a3e,1488,1984,L
+fabric_stain_pilot/test/stain/52.jpg,test/stain,stain,stain/52.jpg,e77592fd854068518e424a81dfd975c22f333e65072bda9181c5eed557a2272b,1488,1984,L
+fabric_stain_pilot/test/stain/53.jpg,test/stain,stain,stain/53.jpg,54dd1c03d4101bd13548b13f90ad7e81783f94f22af481e0f630c609298e3e39,1488,1984,L
+fabric_stain_pilot/test/stain/54.jpg,test/stain,stain,stain/54.jpg,0506b0e4cef3e7b89dec97a63a9ec965de34d18e9a0024ea8c8b1eecfd8d1408,1488,1984,L
+fabric_stain_pilot/test/stain/55.jpg,test/stain,stain,stain/55.jpg,274fd7f8c953abfea805d284a8b75aa7d6e6cc81dd2cae6695c29861c917669b,1488,1984,L
+fabric_stain_pilot/test/stain/56.jpg,test/stain,stain,stain/56.jpg,6137977c675543ba2233343109ec4ffa50edcdb0a3b257dd43cbb14d98044930,1488,1984,L
+fabric_stain_pilot/test/stain/57.jpg,test/stain,stain,stain/57.jpg,c5f7a84dfeee38e113cc2366ef9d7f1a03ba61d03d840d765181cf902ab472e6,1488,1984,L
+fabric_stain_pilot/test/stain/58.jpg,test/stain,stain,stain/58.jpg,b9a9d82d0dda26c4467754b4421baf46bc2436dd6beb2bc06ce3cb080fb962ac,1488,1984,L
+fabric_stain_pilot/test/stain/59.jpg,test/stain,stain,stain/59.jpg,209d594cbb4b648dcc67b4d6b17648d66780f2788690cd269bc5e347e515acb0,1488,1984,L
+fabric_stain_pilot/test/stain/6.jpg,test/stain,stain,stain/6.jpg,d3529373e1186e8846bc95c5f5eff9fb950c8d971fdda4c72d6f93a392aa8d42,1984,1488,L
+fabric_stain_pilot/test/stain/60.jpg,test/stain,stain,stain/60.jpg,1aedffe035c7411cfc3140837240f50b85a8690e17f18f02dbd0c6a484708fea,1488,1984,L
+fabric_stain_pilot/test/stain/61.jpg,test/stain,stain,stain/61.jpg,6bf454596c848b1e051b09ea1d7dc31574a31f33a49d9eaa528677af53fb9caa,1488,1984,L
+fabric_stain_pilot/test/stain/62.jpg,test/stain,stain,stain/62.jpg,3be37e4dde47e02431698cc3eda922509580425aa9fb6ebc387ba9f0f19c6fd8,1984,1488,L
+fabric_stain_pilot/test/stain/63.jpg,test/stain,stain,stain/63.jpg,e62c71e9ae0560e075f3d899c8c2840855b12096f750f4121399aa5745060e41,1984,1488,L
+fabric_stain_pilot/test/stain/64.jpg,test/stain,stain,stain/64.jpg,b67600187da8af4a33fd1eee59713cfd0ceb7a51148da3ed62649946a628247c,1984,1488,L
+fabric_stain_pilot/test/stain/65.jpg,test/stain,stain,stain/65.jpg,47632015ba0ba5abe3802c044d355124d050872d3a505e6fc0ccaedb98fe0e1e,1984,1488,L
+fabric_stain_pilot/test/stain/66.jpg,test/stain,stain,stain/66.jpg,1c8bc6656ebbb7a6802f388e051f2e285b518adebfa18e77e8c36cad161d5905,1984,1488,L
+fabric_stain_pilot/test/stain/67.jpg,test/stain,stain,stain/67.jpg,933cc433300f8c984b08a0957937d525304517a5f30f4667f9e766c9bcd9704c,1984,1488,L
+fabric_stain_pilot/test/stain/68.jpg,test/stain,stain,stain/68.jpg,2f05097b5f68b4b0a044128bd3635f8dfa628c927e03446769ea1e49a4292fef,1984,1488,L
+fabric_stain_pilot/test/stain/69.jpg,test/stain,stain,stain/69.jpg,aeb430642261c4faed71955810cbe5d6102a495d74ceec2be475bd1814d4e57c,1984,1488,L
+fabric_stain_pilot/test/stain/7.jpg,test/stain,stain,stain/7.jpg,295e7f4a49998016bedd2eba07898809cdbc94c79d8ce93faea7645dbe2269bc,1984,1488,L
+fabric_stain_pilot/test/stain/70.jpg,test/stain,stain,stain/70.jpg,22a49f4fa3ed2e6f0e67a8bb4ad2bcaa6b1bc44c660aabe18076148e7001059f,1984,1488,L
+fabric_stain_pilot/test/stain/71.jpg,test/stain,stain,stain/71.jpg,359611355fb176ec52c2a2b9567a6a487cbe7062e1f0ca55d523c04fe0c9c34b,1984,1488,L
+fabric_stain_pilot/test/stain/72.jpg,test/stain,stain,stain/72.jpg,908ce6e48674f3c9f8c281990a83ac6a3a246956e7af14bc56395bfb26621693,1984,1488,L
+fabric_stain_pilot/test/stain/73.jpg,test/stain,stain,stain/73.jpg,9217bc47b7f8827ba5101297845e63ec148f34a2171612e900e8f1e7f883b48f,1984,1488,L
+fabric_stain_pilot/test/stain/74.jpg,test/stain,stain,stain/74.jpg,8db6351e2fab7a826bb5f7e84007de061a5ef8e24aa26fe58ed0e101dff6e9bd,1984,1488,L
+fabric_stain_pilot/test/stain/75.jpg,test/stain,stain,stain/75.jpg,90ac6e1d31539b45e97def6e9dc05f6ed650f41ef369f72d0997d95108587f9b,1984,1488,L
+fabric_stain_pilot/test/stain/76.jpg,test/stain,stain,stain/76.jpg,8a8bd0820954811c44b410c3d360e67c2fad864e58a20989807d805db406f76e,1984,1488,L
+fabric_stain_pilot/test/stain/77.jpg,test/stain,stain,stain/77.jpg,ae658d88acb0935bb67a9e6236962c1f7ce2e666a8523a529abd416dfa783e88,1984,1488,L
+fabric_stain_pilot/test/stain/78.jpg,test/stain,stain,stain/78.jpg,ab654e4bb127248f00b767615c9b32c907146a00eb8353e74912506940c15300,1984,1488,L
+fabric_stain_pilot/test/stain/79.jpg,test/stain,stain,stain/79.jpg,77fbed1d9a747265344f9c1b03d3cad132f7b393152557fada4f0ec170b6e0fd,1984,1488,L
+fabric_stain_pilot/test/stain/8.jpg,test/stain,stain,stain/8.jpg,6a76f070953b10f93ea5996968d123bc9efafd18b66b731f028222872d0d1231,1984,1488,L
+fabric_stain_pilot/test/stain/80.jpg,test/stain,stain,stain/80.jpg,742a8b9b90c74765d8a91d4f9f10f0773282b1d9c924669b6635e267ab811873,1984,1488,L
+fabric_stain_pilot/test/stain/81.jpg,test/stain,stain,stain/81.jpg,2928a344472dc9197bb61afdc6ea7c86029eebd00c23b9961a7dec66f720da2c,1984,1488,L
+fabric_stain_pilot/test/stain/82.jpg,test/stain,stain,stain/82.jpg,b75921285cf1799d3fd174d6d52e509f494198ac4117f8b08c977f36c69cac5f,1984,1488,L
+fabric_stain_pilot/test/stain/83.jpg,test/stain,stain,stain/83.jpg,aa569dc55ff94b77f7f07c8e3e31e76f68d85acd035f8ac2656329b3fce94dd8,1984,1488,L
+fabric_stain_pilot/test/stain/84.jpg,test/stain,stain,stain/84.jpg,d0608df11119aecd522829242ea1f21eece093e050688152a9e9e9a9141307a3,1984,1488,L
+fabric_stain_pilot/test/stain/85.jpg,test/stain,stain,stain/85.jpg,7585ddc59945681e5117ca555a9a69d9670b37a1c28baff431a1c9891c575a59,1984,1488,L
+fabric_stain_pilot/test/stain/86.jpg,test/stain,stain,stain/86.jpg,5b9732e95839375a1473996651965daa1ca1385d74b8dd2a774a7b853cae72ee,1984,1488,L
+fabric_stain_pilot/test/stain/87.jpg,test/stain,stain,stain/87.jpg,5244d2c6c10c42d09a8999700a632ffd62ef3ac07be5f34a8658e680d381a76c,1488,1984,L
+fabric_stain_pilot/test/stain/88.jpg,test/stain,stain,stain/88.jpg,e9f9a267be641c68213164391bf27950f07293fb6895f09ccbb48e2f3d9010bc,1488,1984,L
+fabric_stain_pilot/test/stain/89.jpg,test/stain,stain,stain/89.jpg,57701182f13620f48be8be2fb078078dc3c34126f9583501a735d77eea236f36,1488,1984,L
+fabric_stain_pilot/test/stain/9.jpg,test/stain,stain,stain/9.jpg,20486e07c61d5338bf2c1469fc568321b17c4592e2102ed522d347a9616859d4,1984,1488,L
+fabric_stain_pilot/test/stain/90.jpg,test/stain,stain,stain/90.jpg,d07970b343c816fcb80f6275d92e2f3d6bc86c1ce334e5c180a584bfa738c63f,1984,1488,L
+fabric_stain_pilot/test/stain/91.jpg,test/stain,stain,stain/91.jpg,00176931c7bef3ac99d021f32e0752db72e58cead8b6c6fcd9960c9523b9b78d,1984,1488,L
+fabric_stain_pilot/test/stain/92.jpg,test/stain,stain,stain/92.jpg,a238adcc2a04fd1b72aa2f747789c4860a6f6bf77e37a69b00f321a5904745c2,1984,1488,L
+fabric_stain_pilot/test/stain/93.jpg,test/stain,stain,stain/93.jpg,2ceb67833fd4418e51ca8463bebedd17b616faef8f023182fedf589c48198b0f,1984,1488,L
+fabric_stain_pilot/test/stain/94.jpg,test/stain,stain,stain/94.jpg,0fced5a427859275bae3f02c8186c9c34c460546e2653ebcb680b177c898ad73,1488,1984,L
+fabric_stain_pilot/test/stain/95.jpg,test/stain,stain,stain/95.jpg,94d0e72f1ab6b8d03266b6509706f578b3640bc067f5f171d3606c67ee96bcc1,1488,1984,L
+fabric_stain_pilot/test/stain/96.jpg,test/stain,stain,stain/96.jpg,3cb646f46d6e877376c3358df6b5dafb1459ce8ee696ad008d496874869ab107,1984,1488,L
+fabric_stain_pilot/test/stain/97.jpg,test/stain,stain,stain/97.jpg,9394e2ab86080d5950bcfe421c2ecfcdb611b629da711a697e4162cae0c4d76d,1984,1488,L
+fabric_stain_pilot/test/stain/98.jpg,test/stain,stain,stain/98.jpg,6b6b14f53390189f7e49c6a14673dff5f3e826969739db795e8339b6141e382a,1984,1488,L
+fabric_stain_pilot/test/stain/99.jpg,test/stain,stain,stain/99.jpg,41d751ce6e95a3e2d6299272c30c781c60c7f6ca0c5da010262efd520bf082ee,1488,1984,L

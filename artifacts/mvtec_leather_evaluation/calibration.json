@@ -1,0 +1,7 @@
+{
+  "source": "49 held-out MVTec leather train/good images only",
+  "target_normal_pixel_fpr": 0.005,
+  "threshold": 0.09798713773488998,
+  "observed_validation_pixel_fpr": 0.004999951192211578,
+  "t_distance": 250
+}

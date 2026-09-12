@@ -1,0 +1,23 @@
+{
+  "version": "v9",
+  "source": "10 held-out normal validation images",
+  "tau_strict": 24.058366775512695,
+  "tau_high": 13.5,
+  "tau_low": 3.3,
+  "watermark_tau": 5.8,
+  "watermark_min_area": 260,
+  "watermark_margin": 20,
+  "watermark_weight": 1.0,
+  "crease_max_intensity": 35.0,
+  "crease_max_mean": 15.0,
+  "top_k_pixels": 50,
+  "border_taper_pixels": 5,
+  "t_distance": 50,
+  "num_diffusion_samples": 2,
+  "detrend_kernel_1": 15,
+  "detrend_kernel_2": 31,
+  "detrend_kernel_3": 61,
+  "detrend_kernel_4": 101,
+  "smooth_kernel": 5,
+  "observed_validation_image_fpr": 0.0
+}

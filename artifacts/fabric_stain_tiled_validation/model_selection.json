@@ -1,0 +1,60 @@
+{
+  "status": "development_validation_completed",
+  "final_test_claim": false,
+  "checkpoint_step": 2000,
+  "validation_normal_count": 10,
+  "validation_stain_count": 30,
+  "stain_slice": "[100:130] after seed-230224 shuffle; disjoint from V1-V5 [0:100]",
+  "t_distance": 50,
+  "num_diffusion_samples": 1,
+  "tile_source_size": 512,
+  "tile_stride": 384,
+  "tile_batch_size": 12,
+  "tile_pixel_quantile": 0.999,
+  "comparison": [
+    {
+      "method": "global_score",
+      "auroc": 0.6733333333333333,
+      "average_precision": 0.8881454291111025,
+      "threshold": 17.561914443969727,
+      "sensitivity": 0.4666666666666667,
+      "specificity": 0.9,
+      "balanced_accuracy": 0.6833333333333333,
+      "tn": 9,
+      "fp": 1,
+      "fn": 16,
+      "tp": 14
+    },
+    {
+      "method": "tile_max_score",
+      "auroc": 0.8466666666666667,
+      "average_precision": 0.948587819689635,
+      "threshold": 17.974933624267578,
+      "sensitivity": 0.5666666666666667,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.7833333333333333,
+      "tn": 10,
+      "fp": 0,
+      "fn": 13,
+      "tp": 17
+    },
+    {
+      "method": "tile_top2_mean_score",
+      "auroc": 0.8466666666666667,
+      "average_precision": 0.9496527919580342,
+      "threshold": 16.47188949584961,
+      "sensitivity": 0.6,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.8,
+      "tn": 10,
+      "fp": 0,
+      "fn": 12,
+      "tp": 18
+    }
+  ],
+  "selected_method": "tile_top2_mean_score",
+  "frozen_threshold": 16.47188949584961,
+  "run_seconds": 3420.5536501119996,
+  "peak_gpu_allocated_gib": 0.5399527549743652,
+  "next_step": "Run the selected method and frozen threshold once on a disjoint final stain cohort."
+}

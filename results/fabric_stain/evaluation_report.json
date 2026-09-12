@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "scope": "locked_fabric_stain_image_evaluation",
+  "paper_result_reproduced": false,
+  "dataset": "Fabric Defects Dataset - matched grayscale stain cohort",
+  "checkpoint_step": 2000,
+  "author_commit": "dc4a9bd2a2a5b1c31223daab4bdfea3f6a5b2990",
+  "model_configuration": {
+    "img_size": 224,
+    "patch_size": 16,
+    "in_chans": 3,
+    "embed_dim": 384,
+    "depth": 12,
+    "num_heads": 6,
+    "mlp_ratio": 4.0,
+    "num_classes": null,
+    "mlp_time_embed": true,
+    "use_dec": [
+      "DAFF",
+      "DAFF",
+      "DAFF"
+    ],
+    "PE_type": "SPE",
+    "refinement": true,
+    "qkv_bias": false
+  },
+  "train_normal_count": 48,
+  "validation_normal_count": 10,
+  "test_normal_count": 10,
+  "test_stain_count": 100,
+  "stain_subset_selection": "100 images selected with Python random seed 230224 before inference",
+  "preprocessing": "Complete image resized from 1984x1488 or 1488x1984 to 224x224 RGB",
+  "t_distance": 250,
+  "image_score": "99.5th percentile of squared residual pixels",
+  "threshold": 0.18943974375724792,
+  "threshold_source": "Maximum image score over 10 validation normals",
+  "image_auroc": 0.5359999999999999,
+  "average_precision": 0.9380650145136435,
+  "confusion": {
+    "tn": 9,
+    "fp": 1,
+    "fn": 73,
+    "tp": 27
+  },
+  "sensitivity": 0.27,
+  "specificity": 0.9,
+  "balanced_accuracy": 0.585,
+  "normal_score_mean": 0.15006618201732635,
+  "stain_score_mean": 0.2108355164527893,
+  "median_batch_seconds": 70.70656451050013,
+  "approx_test_seconds_per_image": 17.7160917424909,
+  "peak_gpu_allocated_gib": 0.4810919761657715,
+  "peak_gpu_reserved_gib": 0.498046875,
+  "limitations": [
+    "Only ten independent normal test images",
+    "Seed-fixed 100-image subset of 398 stains",
+    "No pixel masks, so no segmentation Dice/IoU",
+    "Whole-image resize differs from 512-pixel training crop scale",
+    "One grayscale stain acquisition domain",
+    "One reconstruction per image"
+  ]
+}

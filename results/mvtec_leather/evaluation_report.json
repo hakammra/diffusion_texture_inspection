@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "scope": "one_category_reduced_evaluation",
+  "paper_result_reproduced": false,
+  "dataset": "MVTec AD",
+  "category": "leather",
+  "checkpoint_step": 2000,
+  "author_commit": "dc4a9bd2a2a5b1c31223daab4bdfea3f6a5b2990",
+  "model_configuration": {
+    "img_size": 224,
+    "patch_size": 16,
+    "in_chans": 3,
+    "embed_dim": 384,
+    "depth": 12,
+    "num_heads": 6,
+    "mlp_ratio": 4.0,
+    "num_classes": null,
+    "mlp_time_embed": true,
+    "use_dec": [
+      "DAFF",
+      "DAFF",
+      "DAFF"
+    ],
+    "PE_type": "SPE",
+    "refinement": true,
+    "qkv_bias": false
+  },
+  "train_normal_count": 196,
+  "validation_normal_count": 49,
+  "test_count": 124,
+  "test_defective_count": 92,
+  "test_normal_count": 32,
+  "t_distance": 250,
+  "t_distance_source": "Author fixed-time evaluation routine and paper partial-diffusion analysis; not selected on this test set.",
+  "threshold": 0.09798713773488998,
+  "threshold_source": "99.5th percentile of held-out normal validation residual pixels",
+  "pixel_auroc": 0.6656429413402598,
+  "image_auroc_p995_score": 0.5978260869565217,
+  "mean_dice_defective_images": 0.08572936148889611,
+  "mean_iou_defective_images": 0.046921592153657626,
+  "mean_precision_defective_images": 0.09231956320636436,
+  "mean_recall_defective_images": 0.11984437976047904,
+  "normal_test_pixel_fpr": 0.008082798549107142,
+  "per_kind": {
+    "color": {
+      "count": 19,
+      "mean_dice": 0.05652107916940359,
+      "mean_iou": 0.02969757083583296,
+      "pixel_auc": 0.7045925590339477
+    },
+    "cut": {
+      "count": 19,
+      "mean_dice": 0.04122030937913744,
+      "mean_iou": 0.02190710287244613,
+      "pixel_auc": 0.6178669141352384
+    },
+    "fold": {
+      "count": 17,
+      "mean_dice": 0.10337768803655312,
+      "mean_iou": 0.05648289171592231,
+      "pixel_auc": 0.6358097164242416
+    },
+    "glue": {
+      "count": 19,
+      "mean_dice": 0.15620157675468266,
+      "mean_iou": 0.08855974118925884,
+      "pixel_auc": 0.7461344273094022
+    },
+    "good": {
+      "count": 32,
+      "pixel_false_positive_rate": 0.008082798549107142
+    },
+    "poke": {
+      "count": 18,
+      "mean_dice": 0.07248690108865492,
+      "mean_iou": 0.038525190884033375,
+      "pixel_auc": 0.7030130789959754
+    }
+  },
+  "median_validation_batch_seconds": 80.77601140599995,
+  "median_test_batch_seconds": 69.8524659919999,
+  "approx_test_seconds_per_image": 17.548782439169358,
+  "peak_gpu_allocated_gib": 0.4810919761657715,
+  "peak_gpu_reserved_gib": 0.5,
+  "limitations": [
+    "One MVTec category",
+    "2,000 optimizer steps rather than paper 3,000 epochs",
+    "One reconstruction per image",
+    "Normal-only threshold protocol differs from test-optimized Dice selection",
+    "Architecture is the inspected SPE+DMHA+HFF+refinement configuration"
+  ]
+}

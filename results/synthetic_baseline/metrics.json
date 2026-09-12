@@ -1,0 +1,23 @@
+{
+  "status": "synthetic_pipeline_check_only",
+  "method": "illumination_normalized_median_template_squared_residual_3x3_median",
+  "seed": 230224,
+  "train_count": 48,
+  "normal_validation_count": 16,
+  "test_count": 48,
+  "test_defective_count": 36,
+  "test_normal_count": 12,
+  "threshold_source": "normal_validation_only",
+  "target_normal_pixel_fpr": 0.005,
+  "threshold": 0.0,
+  "mean_dice_defective_images": 0.955392086313468,
+  "mean_iou_defective_images": 0.9233028661496908,
+  "normal_pixel_fpr": 0.0,
+  "median_ms_including_image_load": 10.16594999236986,
+  "limitations": [
+    "Synthetic, perfectly aligned fixed layout",
+    "No real-world accuracy claim",
+    "Not DTU-Net or Tsimplex",
+    "Synthetic threshold cannot be assumed valid for real data"
+  ]
+}

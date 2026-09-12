@@ -1,0 +1,11 @@
+# Diffusion Model Dependencies (PyTorch & Generative Anomaly Detection)
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scipy>=1.10.0
+Pillow>=9.5.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+timm>=0.9.0
+numba>=0.57.0
+opensimplex>=0.4.4

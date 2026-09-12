@@ -1,0 +1,1248 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fabric stain final evaluation gallery</title>
+<style>
+:root{--bg:#0b0d12;--panel:#141821;--line:#293140;--text:#f5f7fb;--muted:#9ea8b8;--good:#55d68b;--bad:#ff6b6b}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px system-ui,sans-serif}
+.top{position:sticky;top:0;z-index:2;padding:20px 28px;background:#0b0d12ee;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+h1{margin:0 0 5px;font-size:25px} .summary{color:var(--muted);margin-bottom:14px}
+.controls{display:flex;gap:8px;flex-wrap:wrap} button,input,.switch{border:1px solid var(--line);border-radius:8px;background:#171c26;color:var(--text);padding:9px 12px} .switch{text-decoration:none}
+button.active{background:#e8edf7;color:#111827} input{min-width:230px}
+main{padding:24px;display:grid;gap:20px} .card{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--good);border-radius:12px;overflow:hidden}
+.card.error{border-left-color:var(--bad)} .card header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px}
+.card header span{display:block;color:var(--muted);font-size:13px;margin-top:3px} .score{font-size:22px;font-weight:700;text-align:right}
+.score small{display:block;color:var(--muted);font-size:11px;font-weight:400} .images{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;background:var(--line)}
+figure{margin:0;background:#080a0f;text-align:center} img{width:100%;height:260px;object-fit:contain;display:block;cursor:zoom-in} figcaption{padding:8px;color:var(--muted);font-size:12px}
+footer{padding:10px 16px;color:var(--muted);font-size:12px} .hidden{display:none}
+#modal{display:none;position:fixed;inset:0;background:#000d;z-index:5;align-items:center;justify-content:center;padding:20px} #modal img{max-width:95vw;max-height:94vh;object-fit:contain;cursor:zoom-out}
+@media(max-width:850px){.images{grid-template-columns:repeat(2,1fr)}img{height:220px}}
+</style></head><body>
+<section class="top"><h1>Fabric stain final evaluation</h1>
+<div class="summary">110 images · 51 detected stains · 49 missed stains · 1 false alarm · 9 correct normals</div>
+<div class="controls">
+<a class="switch" href="originals.html">View full images only</a>
+<button class="active" data-filter="all">All (110)</button>
+<button data-filter="detected_stain">Detected (51)</button>
+<button data-filter="missed_stain">Missed (49)</button>
+<button data-filter="false_alarm">False alarms (1)</button>
+<button data-filter="true_normal">Correct normals (9)</button>
+<input id="search" placeholder="Search filename…">
+</div></section><main>
+<article class="card correct" data-group="true_normal" data-name="test/good/19.jpg">
+  <header><div><strong>19.jpg</strong><span>Correct normal</span></div>
+  <div class="score">11.36<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/000_19_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/000_19_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/000_19_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/000_19_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/19.jpg · box 384,768,896,1280</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/27.jpg">
+  <header><div><strong>27.jpg</strong><span>Correct normal</span></div>
+  <div class="score">13.07<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/001_27_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/001_27_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/001_27_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/001_27_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/27.jpg · box 0,384,512,896</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/39.jpg">
+  <header><div><strong>39.jpg</strong><span>Correct normal</span></div>
+  <div class="score">13.48<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/002_39_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/002_39_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/002_39_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/002_39_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/39.jpg · box 1472,384,1984,896</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/47.jpg">
+  <header><div><strong>47.jpg</strong><span>Correct normal</span></div>
+  <div class="score">11.06<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/003_47_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/003_47_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/003_47_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/003_47_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/47.jpg · box 768,976,1280,1488</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/49.jpg">
+  <header><div><strong>49.jpg</strong><span>Correct normal</span></div>
+  <div class="score">12.18<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/004_49_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/004_49_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/004_49_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/004_49_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/49.jpg · box 1152,768,1664,1280</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/54.jpg">
+  <header><div><strong>54.jpg</strong><span>Correct normal</span></div>
+  <div class="score">13.08<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/005_54_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/005_54_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/005_54_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/005_54_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/54.jpg · box 384,1472,896,1984</footer>
+</article>
+<article class="card error" data-group="false_alarm" data-name="test/good/57.jpg">
+  <header><div><strong>57.jpg</strong><span>False alarm</span></div>
+  <div class="score">43.62<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/006_57_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/006_57_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/006_57_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/006_57_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/57.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/58.jpg">
+  <header><div><strong>58.jpg</strong><span>Correct normal</span></div>
+  <div class="score">12.68<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/007_58_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/007_58_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/007_58_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/007_58_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/58.jpg · box 0,0,512,512</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/62.jpg">
+  <header><div><strong>62.jpg</strong><span>Correct normal</span></div>
+  <div class="score">15.40<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/008_62_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/008_62_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/008_62_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/008_62_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/62.jpg · box 1472,768,1984,1280</footer>
+</article>
+<article class="card correct" data-group="true_normal" data-name="test/good/8.jpg">
+  <header><div><strong>8.jpg</strong><span>Correct normal</span></div>
+  <div class="score">12.96<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/009_8_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/009_8_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/009_8_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/009_8_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/good/8.jpg · box 1472,384,1984,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/1.jpg">
+  <header><div><strong>1.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.39<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/010_1_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/010_1_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/010_1_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/010_1_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/1.jpg · box 768,1472,1280,1984</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/100.jpg">
+  <header><div><strong>100.jpg</strong><span>Missed stain</span></div>
+  <div class="score">12.62<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/011_100_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/011_100_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/011_100_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/011_100_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/100.jpg · box 384,384,896,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/102.jpg">
+  <header><div><strong>102.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.25<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/012_102_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/012_102_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/012_102_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/012_102_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/102.jpg · box 0,768,512,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/107.jpg">
+  <header><div><strong>107.jpg</strong><span>Detected stain</span></div>
+  <div class="score">22.40<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/013_107_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/013_107_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/013_107_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/013_107_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/107.jpg · box 976,384,1488,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/112.jpg">
+  <header><div><strong>112.jpg</strong><span>Detected stain</span></div>
+  <div class="score">21.52<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/014_112_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/014_112_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/014_112_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/014_112_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/112.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/121.jpg">
+  <header><div><strong>121.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.20<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/015_121_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/015_121_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/015_121_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/015_121_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/121.jpg · box 1152,384,1664,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/122.jpg">
+  <header><div><strong>122.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.52<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/016_122_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/016_122_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/016_122_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/016_122_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/122.jpg · box 1472,384,1984,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/124.jpg">
+  <header><div><strong>124.jpg</strong><span>Detected stain</span></div>
+  <div class="score">19.07<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/017_124_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/017_124_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/017_124_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/017_124_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/124.jpg · box 1152,384,1664,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/13.jpg">
+  <header><div><strong>13.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.41<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/018_13_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/018_13_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/018_13_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/018_13_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/13.jpg · box 1152,0,1664,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/133.jpg">
+  <header><div><strong>133.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.94<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/019_133_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/019_133_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/019_133_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/019_133_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/133.jpg · box 1152,0,1664,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/140.jpg">
+  <header><div><strong>140.jpg</strong><span>Missed stain</span></div>
+  <div class="score">15.72<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/020_140_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/020_140_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/020_140_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/020_140_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/140.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/142.jpg">
+  <header><div><strong>142.jpg</strong><span>Detected stain</span></div>
+  <div class="score">17.34<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/021_142_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/021_142_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/021_142_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/021_142_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/142.jpg · box 0,768,512,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/148.jpg">
+  <header><div><strong>148.jpg</strong><span>Detected stain</span></div>
+  <div class="score">17.43<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/022_148_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/022_148_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/022_148_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/022_148_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/148.jpg · box 0,768,512,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/153.jpg">
+  <header><div><strong>153.jpg</strong><span>Detected stain</span></div>
+  <div class="score">33.16<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/023_153_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/023_153_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/023_153_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/023_153_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/153.jpg · box 384,1472,896,1984</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/155.jpg">
+  <header><div><strong>155.jpg</strong><span>Detected stain</span></div>
+  <div class="score">44.21<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/024_155_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/024_155_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/024_155_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/024_155_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/155.jpg · box 384,1152,896,1664</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/162.jpg">
+  <header><div><strong>162.jpg</strong><span>Detected stain</span></div>
+  <div class="score">35.80<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/025_162_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/025_162_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/025_162_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/025_162_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/162.jpg · box 384,976,896,1488</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/168.jpg">
+  <header><div><strong>168.jpg</strong><span>Missed stain</span></div>
+  <div class="score">16.23<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/026_168_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/026_168_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/026_168_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/026_168_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/168.jpg · box 1472,768,1984,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/172.jpg">
+  <header><div><strong>172.jpg</strong><span>Detected stain</span></div>
+  <div class="score">20.59<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/027_172_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/027_172_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/027_172_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/027_172_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/172.jpg · box 1472,768,1984,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/178.jpg">
+  <header><div><strong>178.jpg</strong><span>Detected stain</span></div>
+  <div class="score">43.51<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/028_178_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/028_178_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/028_178_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/028_178_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/178.jpg · box 1472,976,1984,1488</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/180.jpg">
+  <header><div><strong>180.jpg</strong><span>Detected stain</span></div>
+  <div class="score">52.67<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/029_180_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/029_180_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/029_180_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/029_180_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/180.jpg · box 768,384,1280,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/181.jpg">
+  <header><div><strong>181.jpg</strong><span>Detected stain</span></div>
+  <div class="score">31.71<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/030_181_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/030_181_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/030_181_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/030_181_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/181.jpg · box 0,384,512,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/185.jpg">
+  <header><div><strong>185.jpg</strong><span>Detected stain</span></div>
+  <div class="score">67.09<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/031_185_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/031_185_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/031_185_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/031_185_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/185.jpg · box 976,768,1488,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/192.jpg">
+  <header><div><strong>192.jpg</strong><span>Detected stain</span></div>
+  <div class="score">20.53<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/032_192_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/032_192_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/032_192_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/032_192_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/192.jpg · box 0,384,512,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/195.jpg">
+  <header><div><strong>195.jpg</strong><span>Detected stain</span></div>
+  <div class="score">21.54<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/033_195_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/033_195_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/033_195_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/033_195_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/195.jpg · box 976,768,1488,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/199.jpg">
+  <header><div><strong>199.jpg</strong><span>Detected stain</span></div>
+  <div class="score">44.99<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/034_199_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/034_199_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/034_199_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/034_199_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/199.jpg · box 1472,0,1984,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/201.jpg">
+  <header><div><strong>201.jpg</strong><span>Detected stain</span></div>
+  <div class="score">25.74<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/035_201_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/035_201_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/035_201_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/035_201_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/201.jpg · box 0,384,512,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/207.jpg">
+  <header><div><strong>207.jpg</strong><span>Detected stain</span></div>
+  <div class="score">18.80<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/036_207_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/036_207_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/036_207_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/036_207_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/207.jpg · box 1472,768,1984,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/208.jpg">
+  <header><div><strong>208.jpg</strong><span>Detected stain</span></div>
+  <div class="score">40.86<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/037_208_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/037_208_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/037_208_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/037_208_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/208.jpg · box 768,384,1280,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/209.jpg">
+  <header><div><strong>209.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.15<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/038_209_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/038_209_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/038_209_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/038_209_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/209.jpg · box 384,976,896,1488</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/211.jpg">
+  <header><div><strong>211.jpg</strong><span>Detected stain</span></div>
+  <div class="score">17.58<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/039_211_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/039_211_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/039_211_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/039_211_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/211.jpg · box 1152,0,1664,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/213.jpg">
+  <header><div><strong>213.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.01<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/040_213_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/040_213_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/040_213_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/040_213_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/213.jpg · box 0,768,512,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/217.jpg">
+  <header><div><strong>217.jpg</strong><span>Detected stain</span></div>
+  <div class="score">23.74<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/041_217_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/041_217_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/041_217_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/041_217_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/217.jpg · box 976,768,1488,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/22.jpg">
+  <header><div><strong>22.jpg</strong><span>Detected stain</span></div>
+  <div class="score">19.86<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/042_22_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/042_22_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/042_22_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/042_22_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/22.jpg · box 384,768,896,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/226.jpg">
+  <header><div><strong>226.jpg</strong><span>Detected stain</span></div>
+  <div class="score">20.79<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/043_226_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/043_226_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/043_226_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/043_226_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/226.jpg · box 768,384,1280,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/229.jpg">
+  <header><div><strong>229.jpg</strong><span>Detected stain</span></div>
+  <div class="score">25.82<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/044_229_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/044_229_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/044_229_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/044_229_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/229.jpg · box 0,1152,512,1664</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/231.jpg">
+  <header><div><strong>231.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.86<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/045_231_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/045_231_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/045_231_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/045_231_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/231.jpg · box 768,1472,1280,1984</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/240.jpg">
+  <header><div><strong>240.jpg</strong><span>Missed stain</span></div>
+  <div class="score">11.04<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/046_240_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/046_240_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/046_240_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/046_240_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/240.jpg · box 1152,0,1664,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/249.jpg">
+  <header><div><strong>249.jpg</strong><span>Missed stain</span></div>
+  <div class="score">12.61<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/047_249_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/047_249_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/047_249_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/047_249_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/249.jpg · box 0,0,512,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/25.jpg">
+  <header><div><strong>25.jpg</strong><span>Missed stain</span></div>
+  <div class="score">16.19<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/048_25_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/048_25_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/048_25_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/048_25_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/25.jpg · box 1152,384,1664,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/255.jpg">
+  <header><div><strong>255.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.54<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/049_255_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/049_255_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/049_255_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/049_255_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/255.jpg · box 0,0,512,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/261.jpg">
+  <header><div><strong>261.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.19<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/050_261_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/050_261_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/050_261_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/050_261_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/261.jpg · box 0,976,512,1488</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/263.jpg">
+  <header><div><strong>263.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.80<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/051_263_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/051_263_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/051_263_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/051_263_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/263.jpg · box 0,768,512,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/266.jpg">
+  <header><div><strong>266.jpg</strong><span>Detected stain</span></div>
+  <div class="score">31.20<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/052_266_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/052_266_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/052_266_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/052_266_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/266.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/267.jpg">
+  <header><div><strong>267.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.61<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/053_267_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/053_267_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/053_267_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/053_267_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/267.jpg · box 1472,976,1984,1488</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/269.jpg">
+  <header><div><strong>269.jpg</strong><span>Missed stain</span></div>
+  <div class="score">15.06<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/054_269_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/054_269_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/054_269_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/054_269_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/269.jpg · box 1472,0,1984,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/271.jpg">
+  <header><div><strong>271.jpg</strong><span>Missed stain</span></div>
+  <div class="score">10.47<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/055_271_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/055_271_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/055_271_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/055_271_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/271.jpg · box 1472,0,1984,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/273.jpg">
+  <header><div><strong>273.jpg</strong><span>Missed stain</span></div>
+  <div class="score">11.06<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/056_273_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/056_273_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/056_273_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/056_273_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/273.jpg · box 0,0,512,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/277.jpg">
+  <header><div><strong>277.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.95<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/057_277_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/057_277_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/057_277_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/057_277_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/277.jpg · box 1472,0,1984,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/281.jpg">
+  <header><div><strong>281.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.51<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/058_281_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/058_281_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/058_281_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/058_281_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/281.jpg · box 1152,0,1664,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/290.jpg">
+  <header><div><strong>290.jpg</strong><span>Detected stain</span></div>
+  <div class="score">28.54<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/059_290_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/059_290_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/059_290_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/059_290_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/290.jpg · box 768,384,1280,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/294.jpg">
+  <header><div><strong>294.jpg</strong><span>Detected stain</span></div>
+  <div class="score">38.83<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/060_294_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/060_294_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/060_294_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/060_294_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/294.jpg · box 768,768,1280,1280</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/295.jpg">
+  <header><div><strong>295.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.53<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/061_295_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/061_295_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/061_295_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/061_295_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/295.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/297.jpg">
+  <header><div><strong>297.jpg</strong><span>Missed stain</span></div>
+  <div class="score">11.92<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/062_297_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/062_297_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/062_297_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/062_297_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/297.jpg · box 976,1472,1488,1984</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/302.jpg">
+  <header><div><strong>302.jpg</strong><span>Detected stain</span></div>
+  <div class="score">42.79<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/063_302_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/063_302_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/063_302_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/063_302_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/302.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/303.jpg">
+  <header><div><strong>303.jpg</strong><span>Detected stain</span></div>
+  <div class="score">38.23<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/064_303_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/064_303_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/064_303_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/064_303_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/303.jpg · box 384,768,896,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/313.jpg">
+  <header><div><strong>313.jpg</strong><span>Detected stain</span></div>
+  <div class="score">31.80<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/065_313_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/065_313_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/065_313_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/065_313_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/313.jpg · box 384,768,896,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/314.jpg">
+  <header><div><strong>314.jpg</strong><span>Detected stain</span></div>
+  <div class="score">27.48<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/066_314_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/066_314_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/066_314_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/066_314_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/314.jpg · box 768,976,1280,1488</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/318.jpg">
+  <header><div><strong>318.jpg</strong><span>Missed stain</span></div>
+  <div class="score">16.27<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/067_318_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/067_318_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/067_318_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/067_318_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/318.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/319.jpg">
+  <header><div><strong>319.jpg</strong><span>Detected stain</span></div>
+  <div class="score">19.26<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/068_319_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/068_319_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/068_319_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/068_319_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/319.jpg · box 0,384,512,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/32.jpg">
+  <header><div><strong>32.jpg</strong><span>Detected stain</span></div>
+  <div class="score">40.51<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/069_32_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/069_32_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/069_32_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/069_32_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/32.jpg · box 384,384,896,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/320.jpg">
+  <header><div><strong>320.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.29<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/070_320_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/070_320_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/070_320_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/070_320_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/320.jpg · box 1472,768,1984,1280</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/323.jpg">
+  <header><div><strong>323.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.89<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/071_323_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/071_323_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/071_323_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/071_323_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/323.jpg · box 768,0,1280,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/324.jpg">
+  <header><div><strong>324.jpg</strong><span>Missed stain</span></div>
+  <div class="score">16.38<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/072_324_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/072_324_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/072_324_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/072_324_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/324.jpg · box 768,384,1280,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/329.jpg">
+  <header><div><strong>329.jpg</strong><span>Detected stain</span></div>
+  <div class="score">39.34<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/073_329_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/073_329_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/073_329_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/073_329_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/329.jpg · box 0,768,512,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/335.jpg">
+  <header><div><strong>335.jpg</strong><span>Detected stain</span></div>
+  <div class="score">22.18<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/074_335_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/074_335_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/074_335_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/074_335_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/335.jpg · box 768,384,1280,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/340.jpg">
+  <header><div><strong>340.jpg</strong><span>Missed stain</span></div>
+  <div class="score">12.63<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/075_340_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/075_340_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/075_340_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/075_340_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/340.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/343.jpg">
+  <header><div><strong>343.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.62<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/076_343_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/076_343_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/076_343_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/076_343_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/343.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/346.jpg">
+  <header><div><strong>346.jpg</strong><span>Missed stain</span></div>
+  <div class="score">10.68<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/077_346_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/077_346_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/077_346_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/077_346_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/346.jpg · box 384,768,896,1280</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/350.jpg">
+  <header><div><strong>350.jpg</strong><span>Missed stain</span></div>
+  <div class="score">11.85<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/078_350_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/078_350_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/078_350_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/078_350_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/350.jpg · box 768,768,1280,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/365.jpg">
+  <header><div><strong>365.jpg</strong><span>Detected stain</span></div>
+  <div class="score">48.34<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/079_365_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/079_365_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/079_365_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/079_365_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/365.jpg · box 384,384,896,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/366.jpg">
+  <header><div><strong>366.jpg</strong><span>Detected stain</span></div>
+  <div class="score">55.77<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/080_366_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/080_366_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/080_366_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/080_366_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/366.jpg · box 384,1152,896,1664</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/37.jpg">
+  <header><div><strong>37.jpg</strong><span>Detected stain</span></div>
+  <div class="score">20.96<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/081_37_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/081_37_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/081_37_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/081_37_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/37.jpg · box 976,0,1488,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/373.jpg">
+  <header><div><strong>373.jpg</strong><span>Detected stain</span></div>
+  <div class="score">56.85<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/082_373_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/082_373_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/082_373_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/082_373_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/373.jpg · box 768,1152,1280,1664</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/375.jpg">
+  <header><div><strong>375.jpg</strong><span>Detected stain</span></div>
+  <div class="score">22.63<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/083_375_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/083_375_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/083_375_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/083_375_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/375.jpg · box 1152,768,1664,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/376.jpg">
+  <header><div><strong>376.jpg</strong><span>Detected stain</span></div>
+  <div class="score">17.22<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/084_376_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/084_376_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/084_376_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/084_376_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/376.jpg · box 768,768,1280,1280</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/386.jpg">
+  <header><div><strong>386.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.40<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/085_386_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/085_386_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/085_386_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/085_386_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/386.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/387.jpg">
+  <header><div><strong>387.jpg</strong><span>Missed stain</span></div>
+  <div class="score">15.04<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/086_387_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/086_387_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/086_387_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/086_387_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/387.jpg · box 0,976,512,1488</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/388.jpg">
+  <header><div><strong>388.jpg</strong><span>Detected stain</span></div>
+  <div class="score">24.58<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/087_388_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/087_388_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/087_388_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/087_388_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/388.jpg · box 384,768,896,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/389.jpg">
+  <header><div><strong>389.jpg</strong><span>Detected stain</span></div>
+  <div class="score">17.06<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/088_389_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/088_389_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/088_389_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/088_389_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/389.jpg · box 384,768,896,1280</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/390.jpg">
+  <header><div><strong>390.jpg</strong><span>Missed stain</span></div>
+  <div class="score">12.45<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/089_390_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/089_390_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/089_390_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/089_390_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/390.jpg · box 0,1472,512,1984</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/397.jpg">
+  <header><div><strong>397.jpg</strong><span>Missed stain</span></div>
+  <div class="score">11.49<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/090_397_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/090_397_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/090_397_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/090_397_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/397.jpg · box 384,0,896,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/40.jpg">
+  <header><div><strong>40.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.73<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/091_40_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/091_40_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/091_40_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/091_40_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/40.jpg · box 976,0,1488,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/45.jpg">
+  <header><div><strong>45.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.72<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/092_45_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/092_45_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/092_45_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/092_45_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/45.jpg · box 0,0,512,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/46.jpg">
+  <header><div><strong>46.jpg</strong><span>Missed stain</span></div>
+  <div class="score">14.67<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/093_46_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/093_46_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/093_46_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/093_46_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/46.jpg · box 384,1152,896,1664</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/48.jpg">
+  <header><div><strong>48.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.49<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/094_48_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/094_48_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/094_48_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/094_48_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/48.jpg · box 768,0,1280,512</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/51.jpg">
+  <header><div><strong>51.jpg</strong><span>Missed stain</span></div>
+  <div class="score">12.08<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/095_51_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/095_51_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/095_51_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/095_51_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/51.jpg · box 384,1472,896,1984</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/56.jpg">
+  <header><div><strong>56.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.61<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/096_56_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/096_56_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/096_56_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/096_56_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/56.jpg · box 384,384,896,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/61.jpg">
+  <header><div><strong>61.jpg</strong><span>Detected stain</span></div>
+  <div class="score">18.68<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/097_61_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/097_61_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/097_61_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/097_61_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/61.jpg · box 384,384,896,896</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/62.jpg">
+  <header><div><strong>62.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.77<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/098_62_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/098_62_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/098_62_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/098_62_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/62.jpg · box 768,976,1280,1488</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/66.jpg">
+  <header><div><strong>66.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.05<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/099_66_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/099_66_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/099_66_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/099_66_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/66.jpg · box 1472,976,1984,1488</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/74.jpg">
+  <header><div><strong>74.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.91<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/100_74_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/100_74_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/100_74_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/100_74_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/74.jpg · box 1152,0,1664,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/75.jpg">
+  <header><div><strong>75.jpg</strong><span>Detected stain</span></div>
+  <div class="score">16.83<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/101_75_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/101_75_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/101_75_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/101_75_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/75.jpg · box 384,384,896,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/82.jpg">
+  <header><div><strong>82.jpg</strong><span>Detected stain</span></div>
+  <div class="score">30.09<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/102_82_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/102_82_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/102_82_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/102_82_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/82.jpg · box 1152,768,1664,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/87.jpg">
+  <header><div><strong>87.jpg</strong><span>Detected stain</span></div>
+  <div class="score">28.88<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/103_87_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/103_87_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/103_87_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/103_87_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/87.jpg · box 976,0,1488,512</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/89.jpg">
+  <header><div><strong>89.jpg</strong><span>Detected stain</span></div>
+  <div class="score">23.73<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/104_89_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/104_89_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/104_89_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/104_89_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/89.jpg · box 976,1152,1488,1664</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/92.jpg">
+  <header><div><strong>92.jpg</strong><span>Missed stain</span></div>
+  <div class="score">13.73<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/105_92_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/105_92_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/105_92_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/105_92_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/92.jpg · box 0,768,512,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/93.jpg">
+  <header><div><strong>93.jpg</strong><span>Detected stain</span></div>
+  <div class="score">16.49<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/106_93_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/106_93_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/106_93_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/106_93_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/93.jpg · box 768,976,1280,1488</footer>
+</article>
+<article class="card error" data-group="missed_stain" data-name="test/stain/96.jpg">
+  <header><div><strong>96.jpg</strong><span>Missed stain</span></div>
+  <div class="score">9.17<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/107_96_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/107_96_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/107_96_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/107_96_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/96.jpg · box 1152,768,1664,1280</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/98.jpg">
+  <header><div><strong>98.jpg</strong><span>Detected stain</span></div>
+  <div class="score">26.36<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/108_98_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/108_98_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/108_98_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/108_98_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/98.jpg · box 1472,384,1984,896</footer>
+</article>
+<article class="card correct" data-group="detected_stain" data-name="test/stain/99.jpg">
+  <header><div><strong>99.jpg</strong><span>Detected stain</span></div>
+  <div class="score">40.68<small>cutoff 16.47</small></div></header>
+  <div class="images">
+    <figure><img src="assets/109_99_original.jpg" loading="lazy"><figcaption>Full image</figcaption></figure>
+    <figure><img src="assets/109_99_tile.jpg" loading="lazy"><figcaption>Highest-response tile</figcaption></figure>
+    <figure><img src="assets/109_99_heatmap.jpg" loading="lazy"><figcaption>Residual heatmap</figcaption></figure>
+    <figure><img src="assets/109_99_overlay.jpg" loading="lazy"><figcaption>Qualitative overlay</figcaption></figure>
+  </div>
+  <footer>test/stain/99.jpg · box 976,1472,1488,1984</footer>
+</article></main><div id="modal"><img></div>
+<script>
+let filter='all', query=''; const cards=[...document.querySelectorAll('.card')];
+function update(){cards.forEach(c=>c.classList.toggle('hidden',!((filter==='all'||c.dataset.group===filter)&&c.dataset.name.includes(query))))}
+document.querySelectorAll('button[data-filter]').forEach(b=>b.onclick=()=>{document.querySelector('button.active').classList.remove('active');b.classList.add('active');filter=b.dataset.filter;update()});
+document.querySelector('#search').oninput=e=>{query=e.target.value.toLowerCase().trim();update()};
+const modal=document.querySelector('#modal'), zoom=modal.querySelector('img');
+document.querySelectorAll('.card img').forEach(img=>img.onclick=()=>{zoom.src=img.src;modal.style.display='flex'}); modal.onclick=()=>modal.style.display='none';
+</script></body></html>

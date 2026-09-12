@@ -1,0 +1,44 @@
+{
+  "status": "frozen_final_evaluation_completed",
+  "method_changed_after_evaluation": false,
+  "checkpoint_step": 2000,
+  "method": "tile_top2_mean_score",
+  "threshold": 16.47188949584961,
+  "test_normal_count": 10,
+  "test_stain_count": 100,
+  "stain_test_independent_of_v1_v5_and_tiled_validation": true,
+  "normal_reference_previously_used_by_exploratory_versions": true,
+  "image_auroc": 0.773,
+  "image_auroc_bootstrap_95_ci": [
+    0.5879749999999999,
+    0.91
+  ],
+  "average_precision": 0.9610197334110686,
+  "no_skill_average_precision": 0.9090909090909091,
+  "confusion": {
+    "tn": 9,
+    "fp": 1,
+    "fn": 49,
+    "tp": 51
+  },
+  "sensitivity": 0.51,
+  "sensitivity_wilson_95_ci": [
+    0.4134801193402717,
+    0.6057800106955886
+  ],
+  "specificity": 0.9,
+  "specificity_wilson_95_ci": [
+    0.5958499732047615,
+    0.9821237869049271
+  ],
+  "balanced_accuracy": 0.7050000000000001,
+  "t_distance": 50,
+  "num_diffusion_samples": 1,
+  "tile_source_size": 512,
+  "tile_stride": 384,
+  "tile_pixel_quantile": 0.999,
+  "run_seconds": 8700.239745492,
+  "peak_gpu_allocated_gib": 0.5397181510925293,
+  "segmentation_metrics_reported": false,
+  "segmentation_limitation": "The source has no pixel-level masks."
+}

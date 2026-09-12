@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "source": "C:\\Users\\abdul\\Downloads\\archive\\Fabric Defects Dataset\\Fabric Defect Dataset",
+  "output_zip": "C:\\Users\\abdul\\Documents\\LabelInspect\\output\\datasets\\fabric_stain_pilot.zip",
+  "seed": 230224,
+  "selection": "grayscale L images at 1984x1488 or 1488x1984",
+  "processed_images_included": 0,
+  "exact_duplicate_groups": 0,
+  "counts": {
+    "train_normal": 48,
+    "val_normal": 10,
+    "test/good": 10,
+    "test/stain": 398
+  },
+  "total": 466,
+  "limitations": [
+    "No pixel masks are supplied for the selected stain cohort.",
+    "Filename-level grouping metadata is unavailable; near-duplicate review remains necessary.",
+    "This is one stain/capture domain, not a general all-fabric model."
+  ]
+}

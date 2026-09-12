@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>All full fabric images</title><style>
+:root{--bg:#0b0d12;--panel:#141821;--line:#293140;--text:#f5f7fb;--muted:#9ea8b8;--good:#55d68b;--bad:#ff6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px system-ui,sans-serif}
+.top{position:sticky;top:0;z-index:2;padding:20px 28px;background:#0b0d12ee;border-bottom:1px solid var(--line)}h1{margin:0 0 5px}
+.summary{color:var(--muted);margin-bottom:14px}.controls{display:flex;gap:8px;flex-wrap:wrap}button,input,.switch{border:1px solid var(--line);border-radius:8px;background:#171c26;color:var(--text);padding:9px 12px;text-decoration:none}
+button.active{background:#e8edf7;color:#111827}input{min-width:230px}main{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:24px}
+.original-card{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--good);border-radius:10px;overflow:hidden}.original-card.error{border-left-color:var(--bad)}
+.original-card img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;background:#080a0f;cursor:zoom-in}.original-card div{padding:11px 14px}.original-card span{display:block;color:var(--muted);margin-top:3px}.hidden{display:none}
+#modal{display:none;position:fixed;inset:0;background:#000e;z-index:5;align-items:center;justify-content:center;padding:16px}#modal img{max-width:97vw;max-height:96vh;object-fit:contain;cursor:zoom-out}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+</style></head><body><section class="top"><h1>Complete source frames</h1><div class="summary">All 110 final-evaluation images shown without cropping. The fabric itself was photographed close-up.</div><div class="controls">
+<a class="switch" href="index.html">View model tiles and heatmaps</a>
+<button class="active" data-filter="all">All (110)</button><button data-filter="detected_stain">Detected (51)</button><button data-filter="missed_stain">Missed (49)</button><button data-filter="false_alarm">False alarms (1)</button><button data-filter="true_normal">Correct normals (9)</button><input id="search" placeholder="Search filename…"></div></section>
+<main>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/19.jpg">
+  <img src="assets/000_19_original.jpg" loading="lazy">
+  <div><strong>19.jpg</strong><span>Correct normal · score 11.36</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/27.jpg">
+  <img src="assets/001_27_original.jpg" loading="lazy">
+  <div><strong>27.jpg</strong><span>Correct normal · score 13.07</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/39.jpg">
+  <img src="assets/002_39_original.jpg" loading="lazy">
+  <div><strong>39.jpg</strong><span>Correct normal · score 13.48</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/47.jpg">
+  <img src="assets/003_47_original.jpg" loading="lazy">
+  <div><strong>47.jpg</strong><span>Correct normal · score 11.06</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/49.jpg">
+  <img src="assets/004_49_original.jpg" loading="lazy">
+  <div><strong>49.jpg</strong><span>Correct normal · score 12.18</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/54.jpg">
+  <img src="assets/005_54_original.jpg" loading="lazy">
+  <div><strong>54.jpg</strong><span>Correct normal · score 13.08</span></div>
+</article>
+<article class="original-card error" data-group="false_alarm" data-name="test/good/57.jpg">
+  <img src="assets/006_57_original.jpg" loading="lazy">
+  <div><strong>57.jpg</strong><span>False alarm · score 43.62</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/58.jpg">
+  <img src="assets/007_58_original.jpg" loading="lazy">
+  <div><strong>58.jpg</strong><span>Correct normal · score 12.68</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/62.jpg">
+  <img src="assets/008_62_original.jpg" loading="lazy">
+  <div><strong>62.jpg</strong><span>Correct normal · score 15.40</span></div>
+</article>
+<article class="original-card correct" data-group="true_normal" data-name="test/good/8.jpg">
+  <img src="assets/009_8_original.jpg" loading="lazy">
+  <div><strong>8.jpg</strong><span>Correct normal · score 12.96</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/1.jpg">
+  <img src="assets/010_1_original.jpg" loading="lazy">
+  <div><strong>1.jpg</strong><span>Missed stain · score 13.39</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/100.jpg">
+  <img src="assets/011_100_original.jpg" loading="lazy">
+  <div><strong>100.jpg</strong><span>Missed stain · score 12.62</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/102.jpg">
+  <img src="assets/012_102_original.jpg" loading="lazy">
+  <div><strong>102.jpg</strong><span>Missed stain · score 13.25</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/107.jpg">
+  <img src="assets/013_107_original.jpg" loading="lazy">
+  <div><strong>107.jpg</strong><span>Detected stain · score 22.40</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/112.jpg">
+  <img src="assets/014_112_original.jpg" loading="lazy">
+  <div><strong>112.jpg</strong><span>Detected stain · score 21.52</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/121.jpg">
+  <img src="assets/015_121_original.jpg" loading="lazy">
+  <div><strong>121.jpg</strong><span>Missed stain · score 14.20</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/122.jpg">
+  <img src="assets/016_122_original.jpg" loading="lazy">
+  <div><strong>122.jpg</strong><span>Missed stain · score 14.52</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/124.jpg">
+  <img src="assets/017_124_original.jpg" loading="lazy">
+  <div><strong>124.jpg</strong><span>Detected stain · score 19.07</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/13.jpg">
+  <img src="assets/018_13_original.jpg" loading="lazy">
+  <div><strong>13.jpg</strong><span>Missed stain · score 14.41</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/133.jpg">
+  <img src="assets/019_133_original.jpg" loading="lazy">
+  <div><strong>133.jpg</strong><span>Missed stain · score 13.94</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/140.jpg">
+  <img src="assets/020_140_original.jpg" loading="lazy">
+  <div><strong>140.jpg</strong><span>Missed stain · score 15.72</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/142.jpg">
+  <img src="assets/021_142_original.jpg" loading="lazy">
+  <div><strong>142.jpg</strong><span>Detected stain · score 17.34</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/148.jpg">
+  <img src="assets/022_148_original.jpg" loading="lazy">
+  <div><strong>148.jpg</strong><span>Detected stain · score 17.43</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/153.jpg">
+  <img src="assets/023_153_original.jpg" loading="lazy">
+  <div><strong>153.jpg</strong><span>Detected stain · score 33.16</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/155.jpg">
+  <img src="assets/024_155_original.jpg" loading="lazy">
+  <div><strong>155.jpg</strong><span>Detected stain · score 44.21</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/162.jpg">
+  <img src="assets/025_162_original.jpg" loading="lazy">
+  <div><strong>162.jpg</strong><span>Detected stain · score 35.80</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/168.jpg">
+  <img src="assets/026_168_original.jpg" loading="lazy">
+  <div><strong>168.jpg</strong><span>Missed stain · score 16.23</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/172.jpg">
+  <img src="assets/027_172_original.jpg" loading="lazy">
+  <div><strong>172.jpg</strong><span>Detected stain · score 20.59</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/178.jpg">
+  <img src="assets/028_178_original.jpg" loading="lazy">
+  <div><strong>178.jpg</strong><span>Detected stain · score 43.51</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/180.jpg">
+  <img src="assets/029_180_original.jpg" loading="lazy">
+  <div><strong>180.jpg</strong><span>Detected stain · score 52.67</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/181.jpg">
+  <img src="assets/030_181_original.jpg" loading="lazy">
+  <div><strong>181.jpg</strong><span>Detected stain · score 31.71</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/185.jpg">
+  <img src="assets/031_185_original.jpg" loading="lazy">
+  <div><strong>185.jpg</strong><span>Detected stain · score 67.09</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/192.jpg">
+  <img src="assets/032_192_original.jpg" loading="lazy">
+  <div><strong>192.jpg</strong><span>Detected stain · score 20.53</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/195.jpg">
+  <img src="assets/033_195_original.jpg" loading="lazy">
+  <div><strong>195.jpg</strong><span>Detected stain · score 21.54</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/199.jpg">
+  <img src="assets/034_199_original.jpg" loading="lazy">
+  <div><strong>199.jpg</strong><span>Detected stain · score 44.99</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/201.jpg">
+  <img src="assets/035_201_original.jpg" loading="lazy">
+  <div><strong>201.jpg</strong><span>Detected stain · score 25.74</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/207.jpg">
+  <img src="assets/036_207_original.jpg" loading="lazy">
+  <div><strong>207.jpg</strong><span>Detected stain · score 18.80</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/208.jpg">
+  <img src="assets/037_208_original.jpg" loading="lazy">
+  <div><strong>208.jpg</strong><span>Detected stain · score 40.86</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/209.jpg">
+  <img src="assets/038_209_original.jpg" loading="lazy">
+  <div><strong>209.jpg</strong><span>Missed stain · score 13.15</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/211.jpg">
+  <img src="assets/039_211_original.jpg" loading="lazy">
+  <div><strong>211.jpg</strong><span>Detected stain · score 17.58</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/213.jpg">
+  <img src="assets/040_213_original.jpg" loading="lazy">
+  <div><strong>213.jpg</strong><span>Missed stain · score 14.01</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/217.jpg">
+  <img src="assets/041_217_original.jpg" loading="lazy">
+  <div><strong>217.jpg</strong><span>Detected stain · score 23.74</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/22.jpg">
+  <img src="assets/042_22_original.jpg" loading="lazy">
+  <div><strong>22.jpg</strong><span>Detected stain · score 19.86</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/226.jpg">
+  <img src="assets/043_226_original.jpg" loading="lazy">
+  <div><strong>226.jpg</strong><span>Detected stain · score 20.79</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/229.jpg">
+  <img src="assets/044_229_original.jpg" loading="lazy">
+  <div><strong>229.jpg</strong><span>Detected stain · score 25.82</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/231.jpg">
+  <img src="assets/045_231_original.jpg" loading="lazy">
+  <div><strong>231.jpg</strong><span>Missed stain · score 14.86</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/240.jpg">
+  <img src="assets/046_240_original.jpg" loading="lazy">
+  <div><strong>240.jpg</strong><span>Missed stain · score 11.04</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/249.jpg">
+  <img src="assets/047_249_original.jpg" loading="lazy">
+  <div><strong>249.jpg</strong><span>Missed stain · score 12.61</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/25.jpg">
+  <img src="assets/048_25_original.jpg" loading="lazy">
+  <div><strong>25.jpg</strong><span>Missed stain · score 16.19</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/255.jpg">
+  <img src="assets/049_255_original.jpg" loading="lazy">
+  <div><strong>255.jpg</strong><span>Missed stain · score 14.54</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/261.jpg">
+  <img src="assets/050_261_original.jpg" loading="lazy">
+  <div><strong>261.jpg</strong><span>Missed stain · score 13.19</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/263.jpg">
+  <img src="assets/051_263_original.jpg" loading="lazy">
+  <div><strong>263.jpg</strong><span>Missed stain · score 14.80</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/266.jpg">
+  <img src="assets/052_266_original.jpg" loading="lazy">
+  <div><strong>266.jpg</strong><span>Detected stain · score 31.20</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/267.jpg">
+  <img src="assets/053_267_original.jpg" loading="lazy">
+  <div><strong>267.jpg</strong><span>Missed stain · score 14.61</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/269.jpg">
+  <img src="assets/054_269_original.jpg" loading="lazy">
+  <div><strong>269.jpg</strong><span>Missed stain · score 15.06</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/271.jpg">
+  <img src="assets/055_271_original.jpg" loading="lazy">
+  <div><strong>271.jpg</strong><span>Missed stain · score 10.47</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/273.jpg">
+  <img src="assets/056_273_original.jpg" loading="lazy">
+  <div><strong>273.jpg</strong><span>Missed stain · score 11.06</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/277.jpg">
+  <img src="assets/057_277_original.jpg" loading="lazy">
+  <div><strong>277.jpg</strong><span>Missed stain · score 14.95</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/281.jpg">
+  <img src="assets/058_281_original.jpg" loading="lazy">
+  <div><strong>281.jpg</strong><span>Missed stain · score 14.51</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/290.jpg">
+  <img src="assets/059_290_original.jpg" loading="lazy">
+  <div><strong>290.jpg</strong><span>Detected stain · score 28.54</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/294.jpg">
+  <img src="assets/060_294_original.jpg" loading="lazy">
+  <div><strong>294.jpg</strong><span>Detected stain · score 38.83</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/295.jpg">
+  <img src="assets/061_295_original.jpg" loading="lazy">
+  <div><strong>295.jpg</strong><span>Missed stain · score 14.53</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/297.jpg">
+  <img src="assets/062_297_original.jpg" loading="lazy">
+  <div><strong>297.jpg</strong><span>Missed stain · score 11.92</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/302.jpg">
+  <img src="assets/063_302_original.jpg" loading="lazy">
+  <div><strong>302.jpg</strong><span>Detected stain · score 42.79</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/303.jpg">
+  <img src="assets/064_303_original.jpg" loading="lazy">
+  <div><strong>303.jpg</strong><span>Detected stain · score 38.23</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/313.jpg">
+  <img src="assets/065_313_original.jpg" loading="lazy">
+  <div><strong>313.jpg</strong><span>Detected stain · score 31.80</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/314.jpg">
+  <img src="assets/066_314_original.jpg" loading="lazy">
+  <div><strong>314.jpg</strong><span>Detected stain · score 27.48</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/318.jpg">
+  <img src="assets/067_318_original.jpg" loading="lazy">
+  <div><strong>318.jpg</strong><span>Missed stain · score 16.27</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/319.jpg">
+  <img src="assets/068_319_original.jpg" loading="lazy">
+  <div><strong>319.jpg</strong><span>Detected stain · score 19.26</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/32.jpg">
+  <img src="assets/069_32_original.jpg" loading="lazy">
+  <div><strong>32.jpg</strong><span>Detected stain · score 40.51</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/320.jpg">
+  <img src="assets/070_320_original.jpg" loading="lazy">
+  <div><strong>320.jpg</strong><span>Missed stain · score 14.29</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/323.jpg">
+  <img src="assets/071_323_original.jpg" loading="lazy">
+  <div><strong>323.jpg</strong><span>Missed stain · score 14.89</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/324.jpg">
+  <img src="assets/072_324_original.jpg" loading="lazy">
+  <div><strong>324.jpg</strong><span>Missed stain · score 16.38</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/329.jpg">
+  <img src="assets/073_329_original.jpg" loading="lazy">
+  <div><strong>329.jpg</strong><span>Detected stain · score 39.34</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/335.jpg">
+  <img src="assets/074_335_original.jpg" loading="lazy">
+  <div><strong>335.jpg</strong><span>Detected stain · score 22.18</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/340.jpg">
+  <img src="assets/075_340_original.jpg" loading="lazy">
+  <div><strong>340.jpg</strong><span>Missed stain · score 12.63</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/343.jpg">
+  <img src="assets/076_343_original.jpg" loading="lazy">
+  <div><strong>343.jpg</strong><span>Missed stain · score 14.62</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/346.jpg">
+  <img src="assets/077_346_original.jpg" loading="lazy">
+  <div><strong>346.jpg</strong><span>Missed stain · score 10.68</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/350.jpg">
+  <img src="assets/078_350_original.jpg" loading="lazy">
+  <div><strong>350.jpg</strong><span>Missed stain · score 11.85</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/365.jpg">
+  <img src="assets/079_365_original.jpg" loading="lazy">
+  <div><strong>365.jpg</strong><span>Detected stain · score 48.34</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/366.jpg">
+  <img src="assets/080_366_original.jpg" loading="lazy">
+  <div><strong>366.jpg</strong><span>Detected stain · score 55.77</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/37.jpg">
+  <img src="assets/081_37_original.jpg" loading="lazy">
+  <div><strong>37.jpg</strong><span>Detected stain · score 20.96</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/373.jpg">
+  <img src="assets/082_373_original.jpg" loading="lazy">
+  <div><strong>373.jpg</strong><span>Detected stain · score 56.85</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/375.jpg">
+  <img src="assets/083_375_original.jpg" loading="lazy">
+  <div><strong>375.jpg</strong><span>Detected stain · score 22.63</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/376.jpg">
+  <img src="assets/084_376_original.jpg" loading="lazy">
+  <div><strong>376.jpg</strong><span>Detected stain · score 17.22</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/386.jpg">
+  <img src="assets/085_386_original.jpg" loading="lazy">
+  <div><strong>386.jpg</strong><span>Missed stain · score 14.40</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/387.jpg">
+  <img src="assets/086_387_original.jpg" loading="lazy">
+  <div><strong>387.jpg</strong><span>Missed stain · score 15.04</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/388.jpg">
+  <img src="assets/087_388_original.jpg" loading="lazy">
+  <div><strong>388.jpg</strong><span>Detected stain · score 24.58</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/389.jpg">
+  <img src="assets/088_389_original.jpg" loading="lazy">
+  <div><strong>389.jpg</strong><span>Detected stain · score 17.06</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/390.jpg">
+  <img src="assets/089_390_original.jpg" loading="lazy">
+  <div><strong>390.jpg</strong><span>Missed stain · score 12.45</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/397.jpg">
+  <img src="assets/090_397_original.jpg" loading="lazy">
+  <div><strong>397.jpg</strong><span>Missed stain · score 11.49</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/40.jpg">
+  <img src="assets/091_40_original.jpg" loading="lazy">
+  <div><strong>40.jpg</strong><span>Missed stain · score 14.73</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/45.jpg">
+  <img src="assets/092_45_original.jpg" loading="lazy">
+  <div><strong>45.jpg</strong><span>Missed stain · score 13.72</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/46.jpg">
+  <img src="assets/093_46_original.jpg" loading="lazy">
+  <div><strong>46.jpg</strong><span>Missed stain · score 14.67</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/48.jpg">
+  <img src="assets/094_48_original.jpg" loading="lazy">
+  <div><strong>48.jpg</strong><span>Missed stain · score 13.49</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/51.jpg">
+  <img src="assets/095_51_original.jpg" loading="lazy">
+  <div><strong>51.jpg</strong><span>Missed stain · score 12.08</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/56.jpg">
+  <img src="assets/096_56_original.jpg" loading="lazy">
+  <div><strong>56.jpg</strong><span>Missed stain · score 13.61</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/61.jpg">
+  <img src="assets/097_61_original.jpg" loading="lazy">
+  <div><strong>61.jpg</strong><span>Detected stain · score 18.68</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/62.jpg">
+  <img src="assets/098_62_original.jpg" loading="lazy">
+  <div><strong>62.jpg</strong><span>Missed stain · score 13.77</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/66.jpg">
+  <img src="assets/099_66_original.jpg" loading="lazy">
+  <div><strong>66.jpg</strong><span>Missed stain · score 13.05</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/74.jpg">
+  <img src="assets/100_74_original.jpg" loading="lazy">
+  <div><strong>74.jpg</strong><span>Missed stain · score 13.91</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/75.jpg">
+  <img src="assets/101_75_original.jpg" loading="lazy">
+  <div><strong>75.jpg</strong><span>Detected stain · score 16.83</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/82.jpg">
+  <img src="assets/102_82_original.jpg" loading="lazy">
+  <div><strong>82.jpg</strong><span>Detected stain · score 30.09</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/87.jpg">
+  <img src="assets/103_87_original.jpg" loading="lazy">
+  <div><strong>87.jpg</strong><span>Detected stain · score 28.88</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/89.jpg">
+  <img src="assets/104_89_original.jpg" loading="lazy">
+  <div><strong>89.jpg</strong><span>Detected stain · score 23.73</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/92.jpg">
+  <img src="assets/105_92_original.jpg" loading="lazy">
+  <div><strong>92.jpg</strong><span>Missed stain · score 13.73</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/93.jpg">
+  <img src="assets/106_93_original.jpg" loading="lazy">
+  <div><strong>93.jpg</strong><span>Detected stain · score 16.49</span></div>
+</article>
+<article class="original-card error" data-group="missed_stain" data-name="test/stain/96.jpg">
+  <img src="assets/107_96_original.jpg" loading="lazy">
+  <div><strong>96.jpg</strong><span>Missed stain · score 9.17</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/98.jpg">
+  <img src="assets/108_98_original.jpg" loading="lazy">
+  <div><strong>98.jpg</strong><span>Detected stain · score 26.36</span></div>
+</article>
+<article class="original-card correct" data-group="detected_stain" data-name="test/stain/99.jpg">
+  <img src="assets/109_99_original.jpg" loading="lazy">
+  <div><strong>99.jpg</strong><span>Detected stain · score 40.68</span></div>
+</article></main><div id="modal"><img></div><script>
+let filter='all',query='';const cards=[...document.querySelectorAll('.original-card')];function update(){cards.forEach(c=>c.classList.toggle('hidden',!((filter==='all'||c.dataset.group===filter)&&c.dataset.name.includes(query))))}document.querySelectorAll('button[data-filter]').forEach(b=>b.onclick=()=>{document.querySelector('button.active').classList.remove('active');b.classList.add('active');filter=b.dataset.filter;update()});document.querySelector('#search').oninput=e=>{query=e.target.value.toLowerCase().trim();update()};const modal=document.querySelector('#modal'),zoom=modal.querySelector('img');document.querySelectorAll('.original-card img').forEach(img=>img.onclick=()=>{zoom.src=img.src;modal.style.display='flex'});modal.onclick=()=>modal.style.display='none';
+</script></body></html>

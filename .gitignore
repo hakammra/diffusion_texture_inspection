@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model Checkpoints & Large Weights (>50MB)
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Temporary / Scratch
+tmp/
+*.log
