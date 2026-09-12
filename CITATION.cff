@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this student reproduction, cite this repository and the original WACV 2025 paper."
+title: "Diffusion-Defect-Inspection: An Applied Study of Diffusion Anomaly Segmentation in Industrial Machine Vision"
+type: software
+version: 0.1.0
+date-released: 2026-09-10
+authors:
+  - family-names: Hakam
+    given-names: M.R.A.
+  - family-names: Himasara
+    given-names: W.V.M.J.
+license: MIT
+keywords:
+  - anomaly segmentation
+  - computer vision
+  - diffusion models
+  - industrial inspection
+  - reproducibility
+references:
+  - type: conference-paper
+    title: "Self-Supervised Anomaly Segmentation via Diffusion Models with Dynamic Transformer UNet"
+    authors:
+      - family-names: Kumar
+        given-names: Komal
+      - family-names: Chakraborty
+        given-names: Snehashis
+      - family-names: Mahapatra
+        given-names: Dwarikanath
+      - family-names: Bozorgtabar
+        given-names: Behzad
+      - family-names: Roy
+        given-names: Sudipta
+    year: 2025
