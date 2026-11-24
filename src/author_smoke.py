@@ -104,7 +104,13 @@ def load_author_components(source_root,output):
     reduced=ast.Module(body=selected,type_ignores=[])
     namespace={'np':np,'torch':torch,'nn':nn,'OpenSimplex':noise.OpenSimplex}
     exec(compile(reduced,'author_diffusion_l2_subset.py','exec'),namespace)
-    (output/'author_diffusion_l2_subset.py').write_text(ast.unparse(reduced),encoding='utf8')
+    header = (
+        'import numpy as np\n'
+        'import torch\n'
+        'import torch.nn as nn\n'
+        'from labelinspect_author_simplex.noise import OpenSimplex\n\n'
+    )
+    (output / 'author_diffusion_l2_subset.py').write_text(header + ast.unparse(reduced), encoding='utf8')
 
     class NoisePredictionAdapter(nn.Module):
         def __init__(self,backbone):super().__init__();self.backbone=backbone
