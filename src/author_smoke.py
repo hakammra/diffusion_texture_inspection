@@ -174,31 +174,53 @@ def save_preview(x,reconstructed,destination):
     draw.text((12,283),'No anomaly-removal or accuracy claim.',fill='darkred');sheet.save(destination)
 
 
-def run(output,cache=None):
+def run(output, cache=None, device_str='auto'):
     import importlib.metadata
     import numpy as np
     import torch
     import numba
-    output=Path(output);output.mkdir(parents=True,exist_ok=True)
-    if not torch.cuda.is_available():raise RuntimeError('Select a GPU accelerator before running this notebook')
-    cache=Path(cache) if cache else output/'upstream'/COMMIT
-    hashes=fetch_sources(cache)
-    random.seed(230224);np.random.seed(230224);torch.manual_seed(230224)
-    numba.set_num_threads(min(2,numba.get_num_threads()))
-    module,ns,adapter_type,patches=load_author_components(cache,output)
-    config={'img_size':224,'patch_size':16,'in_chans':3,'embed_dim':384,'depth':12,
-            'num_heads':6,'mlp_ratio':4.,'num_classes':None,'mlp_time_embed':True,
-            'use_dec':['DAFF','DAFF','DAFF'],'PE_type':'SPE','refinement':True,'qkv_bias':False}
-    report={'status':'running','scope':'integration_check_only','upstream_commit':COMMIT,
-            'source_sha256':hashes,'compatibility_changes':patches,'model_configuration':config,
-            'configuration_note':'Illustrated SPE/DMHA/HFF/refinement variant. Code depth=12 gives six encoder blocks, one middle, six decoder blocks. This is not asserted to match every paper table.',
-            'torch':torch.__version__,'gpu':torch.cuda.get_device_name(0),
-            'gpu_vram_gib':torch.cuda.get_device_properties(0).total_memory/2**30,
-            'packages':{n:importlib.metadata.version(n) for n in ['timm','einops','numba','numpy']},
-            'noise_parameters':{'octave':6,'frequency':64,'persistence':.9},
-            'training_steps':2,'batch_size':2,'total_diffusion_steps':1000,'reconstruction_steps':8}
-    (output/'integration_report.json').write_text(json.dumps(report,indent=2))
-    device=torch.device('cuda:0');torch.cuda.reset_peak_memory_stats()
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    if device_str == 'auto':
+        if torch.cuda.is_available():
+            device = torch.device('cuda:0')
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            device = torch.device('mps')
+        else:
+            device = torch.device('cpu')
+    else:
+        device = torch.device(device_str)
+
+    cache = Path(cache) if cache else output / 'upstream' / COMMIT
+    hashes = fetch_sources(cache)
+    random.seed(230224); np.random.seed(230224); torch.manual_seed(230224)
+    numba.set_num_threads(min(2, numba.get_num_threads()))
+    module, ns, adapter_type, patches = load_author_components(cache, output)
+    config = {
+        'img_size': 224, 'patch_size': 16, 'in_chans': 3, 'embed_dim': 384, 'depth': 12,
+        'num_heads': 6, 'mlp_ratio': 4., 'num_classes': None, 'mlp_time_embed': True,
+        'use_dec': ['DAFF', 'DAFF', 'DAFF'], 'PE_type': 'SPE', 'refinement': True, 'qkv_bias': False
+    }
+
+    gpu_name = torch.cuda.get_device_name(device) if device.type == 'cuda' else str(device)
+    gpu_vram = (
+        torch.cuda.get_device_properties(device).total_memory / 2**30
+        if device.type == 'cuda' else None
+    )
+
+    report = {
+        'status': 'running', 'scope': 'integration_check_only', 'upstream_commit': COMMIT,
+        'source_sha256': hashes, 'compatibility_changes': patches, 'model_configuration': config,
+        'configuration_note': 'Illustrated SPE/DMHA/HFF/refinement variant. Code depth=12 gives six encoder blocks, one middle, six decoder blocks. This is not asserted to match every paper table.',
+        'torch': torch.__version__, 'device': str(device), 'gpu': gpu_name,
+        'gpu_vram_gib': gpu_vram,
+        'packages': {n: importlib.metadata.version(n) for n in ['timm', 'einops', 'numba', 'numpy']},
+        'noise_parameters': {'octave': 6, 'frequency': 64, 'persistence': .9},
+        'training_steps': 2, 'batch_size': 2, 'total_diffusion_steps': 1000, 'reconstruction_steps': 8
+    }
+    (output / 'integration_report.json').write_text(json.dumps(report, indent=2))
+    if device.type == 'cuda':
+        torch.cuda.reset_peak_memory_stats()
     print('Building author DTU-Net, width 384, six attention heads...',flush=True)
     backbone=module.UDHVT(**config).to(device);model=adapter_type(backbone)
     report['parameter_count']=sum(p.numel() for p in model.parameters())
@@ -246,13 +268,20 @@ def run(output,cache=None):
     assert residual.shape==(1,224,224) and torch.isfinite(residual).all()
     save_preview(x,result,output/'integration_preview.png')
     report['reconstruction_shape']=list(result.shape);report['residual_shape']=list(residual.shape)
-    report['peak_gpu_allocated_gib']=torch.cuda.max_memory_allocated()/2**30
-    report['peak_gpu_reserved_gib']=torch.cuda.max_memory_reserved()/2**30
+    if device.type == 'cuda':
+        report['peak_gpu_allocated_gib'] = torch.cuda.max_memory_allocated(device) / 2**30
+        report['peak_gpu_reserved_gib'] = torch.cuda.max_memory_reserved(device) / 2**30
+    else:
+        report['peak_gpu_allocated_gib'] = None
+        report['peak_gpu_reserved_gib'] = None
     report['status']='passed'
     report['not_completed']=['Training a useful anomaly model','Real label dataset','Paper metrics reproduction','Quality comparison with CPU baseline']
     (output/'integration_report.json').write_text(json.dumps(report,indent=2))
     print('\nDTU-NET + TSIMPLEX INTEGRATION CHECK PASSED',flush=True)
-    print(json.dumps({k:report[k] for k in ['parameter_count','noise_shape','losses','reconstruction_shape','peak_gpu_allocated_gib','peak_gpu_reserved_gib']},indent=2))
+    summary_keys = ['parameter_count', 'noise_shape', 'losses', 'reconstruction_shape']
+    if device.type == 'cuda':
+        summary_keys.extend(['peak_gpu_allocated_gib', 'peak_gpu_reserved_gib'])
+    print(json.dumps({k: report[k] for k in summary_keys}, indent=2))
     print('Saved:',output/'integration_report.json',flush=True)
     return report
 
@@ -261,4 +290,6 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output',default='artifacts/author_integration')
     parser.add_argument('--cache',default=None)
-    args=parser.parse_args();run(args.output,args.cache)
+    parser.add_argument('--device',default='auto',help='Execution device (auto, cuda, cpu, mps)')
+    args=parser.parse_args()
+    run(args.output,args.cache,device_str=args.device)
