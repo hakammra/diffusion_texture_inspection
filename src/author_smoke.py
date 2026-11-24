@@ -40,7 +40,11 @@ def fetch_sources(root):
             last_error=None
             for attempt in range(1,4):
                 try:
-                    with urllib.request.urlopen(BASE_URL+name,timeout=45) as response:
+                    req = urllib.request.Request(
+                        BASE_URL + name,
+                        headers={'User-Agent': 'Mozilla/5.0 (compatible; DiffusionTextureInspection/1.0)'}
+                    )
+                    with urllib.request.urlopen(req, timeout=45) as response:
                         payload=response.read()
                     break
                 except urllib.error.URLError as exc:
@@ -130,13 +134,25 @@ def load_author_components(source_root,output):
     }
 
 
+def get_font(size=20):
+    from PIL import ImageFont
+    for name in ('DejaVuSans.ttf', 'arial.ttf', 'segoeui.ttf', 'Helvetica.ttf'):
+        try:
+            return ImageFont.truetype(name, size)
+        except OSError:
+            pass
+    try:
+        return ImageFont.load_default(size=size)
+    except TypeError:
+        return ImageFont.load_default()
+
+
 def synthetic_batch(size,batch,device):
     import numpy as np
     import torch
-    from PIL import Image,ImageDraw,ImageFont
+    from PIL import Image,ImageDraw
     im=Image.new('L',(size,size),235);draw=ImageDraw.Draw(im)
-    try:font=ImageFont.truetype('DejaVuSans.ttf',20)
-    except OSError:font=ImageFont.load_default(size=20)
+    font=get_font(20)
     draw.rectangle((12,12,size-12,size-12),outline=20,width=2)
     draw.text((24,45),'LABEL A-104',font=font,fill=20)
     draw.text((24,90),'BATCH 2026',font=font,fill=20)
